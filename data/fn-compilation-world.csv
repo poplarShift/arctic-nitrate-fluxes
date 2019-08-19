@@ -1,0 +1,27 @@
+Reference,FN,Region,Comment,double-checked with paper,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,logFN
+carr1995physical,4.3,Equatorial Pacific (1 °N - 1 °S),,y,,,,,,,0.6334684555795865
+carr1995physical,1.9,Equatorial Pacific (5 °N - 5 °S),,y,,,,,,,0.2787536009528289
+cyr2015turbulent,0.21,"St. Lawrence Gulf, Canada",,y,,,,,,,-0.6777807052660807
+cyr2015turbulent,95.0,"St. Lawrence Gulf, Canada (shallow sill)",,y,check for same mistake as bourgault et al,,,,,,1.9777236052888478
+hales2005irreversible,9.0,Oregon Shelf Upwelling System,order of magnitude,,,,,,,,0.9542425094393249
+hales2009turbulent,5.2,New England shelf break front (shoreward of),,y,,,,,,,0.7160033436347992
+hales2009turbulent,0.9,New England shelf break front (seaward of),,y,,,,,,,-0.045757490560675115
+hamilton1989vertical re-analyzing @lewis1986vertical,0.85,Subtropical North Atlantic,,y,,,,,,,-0.07058107428570728
+horne1996turbulence,0.047,"North Atlantic, Georges Bank",,y,,,,,,,-1.3279021420642825
+horne1996turbulence,0.18,"North Atlantic, Georges Bank",,y,,,,,,,-0.744727494896694
+jenkins1988nitrate,1.6,Subtropical North Atlantic,,y,,,,,,,0.2041199826559248
+kaneko2013observations,0.34,"North Pacific, Kuroshio (north of front)",,y,,,,,,,-0.46852108295774486
+kaneko2013observations,0.003,"North Pacific, Kuroshio (south of front)",,y,,,,,,,-2.5228787452803374
+law2001lagrangian,1.8,Subarctic North Atlantic,,y,,,,,,,0.25527250510330607
+law2003vertical,0.17,Antarctic Circumpolar Current,,y,,,,,,,-0.769551078621726
+lewis1986vertical,0.14,Subtropical North Atlantic,,y,,,,,,,-0.8538719643217619
+martin2010supply,0.09,"North Atlantic, Porcupine Abyssal Plain",,,,,,,,,-1.0457574905606752
+planas1999nitrate,0.38,Central Atlantic,Calculated from Table 1,y,,,,,,,-0.42021640338318983
+rippeth2009diapcynal,1.5,Irish Sea,,,,,,,,,0.17609125905568124
+schafstall2010tidalinduced,1.0,Mauritanian Upwelling (offshore),,y,,,,,,,0.0
+schafstall2010tidalinduced,10.0,Mauritanian Upwelling (slope),,y,,,,,,,1.0
+schafstall2010tidalinduced,3.7,Mauritanian Upwelling (shelf),,y,,,,,,,0.568201724066995
+sharples2001internal,12.0,New Zealand Shelf,,,,,,,,,1.0791812460476249
+sharples2007springneap,1.3,Celtic Sea shelf edge (neap tide),,y,,,unused:,johnson2010nitrate,,reason: only indirect estimate,0.11394335230683679
+sharples2007springneap,9.0,Celtic Sea shelf edge (spring tide),,y,,,,,,,0.9542425094393249
+"shiozaki2011imbalance, mean of values in their Table 1",0.25,"North Pacific, East China Sea shelf",,y,,,,,,,-0.6020599913279624
