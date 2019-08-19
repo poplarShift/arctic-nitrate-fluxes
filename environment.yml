@@ -1,0 +1,45 @@
+name: nitrateflux
+channels:
+  - conda-forge
+dependencies:
+  - nodejs
+  - tornado<6
+  - python
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas
+  - xlrd
+  - pyarrow
+  - geopandas
+  - geoplot
+  - shapely
+  - xarray
+  - xesmf
+  - fiona
+  - dask
+  - holoviews
+  - hvplot
+  - geoviews
+  - panel
+  - matplotlib
+  - cmocean
+  - bokeh
+  - gsw
+  - cartopy
+  - jupyterlab
+  - selenium
+  - geckodriver
+  - pandoc
+  - lxml
+  - pip
+  - pip:
+      - pandoc-crossref
+      - pandoc-citeproc
+      - git+https://github.com/varnion/svg_stack@d324a93a42d80c98a2ed27e4004a1781b44ffc0a
+
+# run as: $ conda env create -f environment.yml
+
+# remove: $ conda remove --name nitrateflux --all
+
+# afterwards, run $ jupyter labextension install @jupyterlab/toc @pyviz/jupyterlab_pyviz
