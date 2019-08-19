@@ -1,0 +1,1 @@
+![Seasonal cycles of surface nitrate concentrations in the Arctic Ocean. The lasso tool (upper right) permits selection of groups of points. Needs internet access to load the Javascript libraries. (TBD double-check)](../nb_fig/FIGURE_NO3-COMP_chart_seasonal_cycle.html){#fig:NO3-COMP_chart_seasonal_cycle width=100% height=800}
