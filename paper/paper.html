@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Pan-Arctic primary production constrained by turbulent nitrate fluxes</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Pan-Arctic primary production constrained by turbulent nitrate fluxes</h1>
+</header>
+<h1 id="abstract">Abstract</h1>
+<p>Arctic Ocean primary productivity is limited by light and inorganic nutrients. With recent decades’ decreasing sea ice cover, nutrient limitation is thought to become more prominent. Although much has been learned about nitrate supply from general patterns of ocean circulation and water column stability, a quantitative analysis requires dedicated turbulence measurements that have only started to accumulate in the last dozen years. Here we compile published estimates of the turbulent vertical nitrate flux in the Arctic Ocean, supplemented by new observations from the Laptev Sea and Baffin Bay. Combining those with a pan-Arctic collection of in situ measurements of nitrate concentration and density, we find the annual nitrate inventory to be largely determined by the strength of stratification, but also by bathymetry. Nitrate fluxes explain the observed regional patterns and magnitudes of both primary production and particle export. We argue that with few regional exceptions, vertical nitrate fluxes are a reliable proxy of Arctic primary production accessible to autonomous and large-scale measurements. They also provide a framework to project nutrient limitation scenarios into the future based on clear energetic and mass budget constraints resulting from wind-driven and tidal mixing and freshwater flows.</p>
+<h1 id="introduction">Introduction</h1>
+<p>Without upward mixing of nutrients, much of the ocean would harbour no life <span class="citation" data-cites="ambuehl1959bedeutung margalef1978life">(Ambühl, 1959; Margalef, 1978)</span>; the Arctic Ocean is no exception. The reason is essentially that algae, in particular dead algae, and other particulate matter have the tendency to sink due to their higher density, and hence nutrients are constantly being removed from the surface waters. Phytoplankton, in turn, has to rely on nutrients being mixed up in order to be able to grow and re-build their standing stock every year. Consequently, primary production, which happens in the euphotic zone where light levels are sufficient to support net growth, should depend on how much new nitrate is brought up from below the photic zone each year.</p>
+<p>While turbulence is a concern for aquatic life everywhere, the Arctic Ocean is special in certain regards, most notably its ubiquitous sea ice cover and the strong stratification linked to its estuary nature <span class="citation" data-cites="aagaard1989role">(Aagaard and Carmack, 1989)</span>. In particular, the large summertime accumulation of meltwater under sea ice has profound impacts on the vertical mixing in the upper ocean <span class="citation" data-cites="mcphee1984 randelhoff2017turbulent cole2018internal">(<span class="citeproc-not-found" data-reference-id="mcphee1984"><strong>???</strong></span>; Randelhoff et al., 2017; Cole et al., 2018)</span>. At lower latitudes, diurnal heating significantly modifies upper ocean mixing <span class="citation" data-cites="price1986diurnal">(Price and Weller, 1986)</span>. In contrast, such signals are usually negligible in the Arctic Ocean due to low sun angles <span class="citation" data-cites="mcphee1992turbulent">(McPhee, 1992, but see <span class="citation" data-cites="mcphee2008air">[@mcphee2008air]</span> for a rare counterexample)</span>. The Arctic seasonal freeze-melt alternation hence dominates over diurnal cycles, such that there is often only seasonal nitrate limitation, and winter mixing is disproportionately important for setting mixed-layer properties, as will be shown throughout this paper.</p>
+<p>Sea ice is often assumed to be a rather rigid lid that shuts out a large portion of the sunlight as well as wind energy that could otherwise mix the ocean. As much of this ice is melting in the course of the 21st century <span class="citation" data-cites="comiso">(<span class="citeproc-not-found" data-reference-id="comiso"><strong>???</strong></span>)</span>, the factors limiting Arctic marine growth may change. Such a transition in limiting factors usually leads to difficulties in predicting systems <span class="citation" data-cites="allen2015unified">(Allen and Hoekstra, 2015)</span>. Indeed, <span class="citation" data-cites="vancoppenolle2013future">Vancoppenolle et al. (2013)</span> found that three different coupled biogeochemical general circulation models and their predictions for integrated Arctic Ocean primary production until the end of this century show vastly diverging trajectories beyond a few decades from now. In their analysis, a prominent uncertainty concerned the resupply of nitrate to the photic zone, which is currently not well constrained. Hence one practical implication of our lack of understanding of the vertical nitrate flux is the failure to consistently predict future Arctic Ocean primary production for the rest of this century.</p>
+<p>Whereas the vertical nitrate flux in the world ocean has received attention at least since the late 1980s <span class="citation" data-cites="lewis1986vertical">(Lewis et al., 1986)</span>, dedicated measurements in the Arctic Ocean have only started to accumulate in the last dozen years.</p>
+<h1 id="material-methods">Material &amp; methods</h1>
+<p>This study is centered around two datasets: 1) A compilation of seawater nitrate concentration measurements across the Arctic Ocean, based on databases that were already available, and 2) a compilation of nitrate flux measurements mostly available in the published literature of the last decade, but supplemented by new calculations and measurements from Baffin Bay and the Chukchi and Laptev seas.</p>
+<h2 id="no3-compilation">NO3 compilation</h2>
+<p>Code and supplemental information available here: .ipynb</p>
+<p><span class="citation" data-cites="codispoti2013synthesis">(Codispoti et al., 2013)</span></p>
+<h2 id="fn-compilation">FN compilation</h2>
+<p>Code and supplemental information here: .ipynb</p>
+<p>There are just above a dozen flux estimates going back to less than ten publications (Table 1).</p>
+<div id="tbl:nitrate_fluxes">
+<table>
+<caption>Table 1: Nitrate fluxes observed in the Arctic Ocean. <span class="math inline">\(^\ast\)</span>see Appendix, AABC: Anticyclonic Arctic Boundary Current. TBD: Add young sound nitrate flux?</caption>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 29%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Reference</th>
+<th style="text-align: center;">FN</th>
+<th>Region</th>
+<th>Season</th>
+<th>Sample size</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="citation" data-cites="sundfjord2007observations">Sundfjord et al. (2007)</span></td>
+<td style="text-align: center;">0.1</td>
+<td>Barents Sea</td>
+<td>Summer</td>
+<td>Single station</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="sundfjord2007observations">Sundfjord et al. (2007)</span></td>
+<td style="text-align: center;">2.0</td>
+<td>Barents Sea</td>
+<td>Summer</td>
+<td>Single station</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="bourgault2011turbulent">Bourgault et al. (2011)</span></td>
+<td style="text-align: center;">0.12</td>
+<td>Amundsen Gulf</td>
+<td>Winter</td>
+<td>Aggregate value</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="randelhoff2015seasonal">Randelhoff et al. (2015)</span></td>
+<td style="text-align: center;">2.5</td>
+<td>Barents Sea, AABC</td>
+<td>Winter</td>
+<td>Aggregate value</td>
+</tr>
+<tr class="odd">
+<td>this study, <span class="citation" data-cites="nishino2015nutrient">Nishino et al. (2015)</span></td>
+<td style="text-align: center;">0.02</td>
+<td>Chukchi Sea</td>
+<td>Summer</td>
+<td>Single station</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="randelhoff2016regional">Randelhoff and Guthrie (2016)</span></td>
+<td style="text-align: center;">0.01</td>
+<td>Canada Basin</td>
+<td>Perennial</td>
+<td>Aggregate value</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="randelhoff2016regional">Randelhoff and Guthrie (2016)</span></td>
+<td style="text-align: center;">0.015</td>
+<td>Makarov Basin</td>
+<td>Perennial</td>
+<td>Aggregate value</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="randelhoff2016regional">Randelhoff and Guthrie (2016)</span></td>
+<td style="text-align: center;">0.05</td>
+<td>Amundsen Basin</td>
+<td>Perennial</td>
+<td>Aggregate value</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="randelhoff2016regional">Randelhoff and Guthrie (2016)</span></td>
+<td style="text-align: center;">0.2</td>
+<td>Nansen Basin/Yermak Plateau</td>
+<td>Perennial</td>
+<td>Aggregate value</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="randelhoff2016vertical">Randelhoff et al. (2016)</span></td>
+<td style="text-align: center;">0.3</td>
+<td>N Svalbard/Fram Strait</td>
+<td>Summer</td>
+<td>Aggregate value</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="randelhoff2016vertical">Randelhoff et al. (2016)</span></td>
+<td style="text-align: center;">0.7</td>
+<td>N Svalbard/Fram Strait</td>
+<td>Summer</td>
+<td>Aggregate value</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="wiedmann2017upward">Wiedmann et al. (2017)</span></td>
+<td style="text-align: center;">0.1</td>
+<td>Barents Sea</td>
+<td>Summer</td>
+<td>Single station</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="wiedmann2017upward">Wiedmann et al. (2017)</span></td>
+<td style="text-align: center;">5.0</td>
+<td>Barents Sea</td>
+<td>Summer</td>
+<td>Single station</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="nishino2018biogeochemical">Nishino et al. (2018)</span></td>
+<td style="text-align: center;">0.19</td>
+<td>Chukchi Sea</td>
+<td>Summer</td>
+<td>Aggregate value</td>
+</tr>
+<tr class="odd">
+<td>this study</td>
+<td style="text-align: center;">1.7</td>
+<td>Baffin Bay</td>
+<td>Winter</td>
+<td>Aggregate value</td>
+</tr>
+<tr class="even">
+<td>this study</td>
+<td style="text-align: center;">0.0<span class="math inline">\(^\ast\)</span></td>
+<td>Laptev Sea</td>
+<td>Summer</td>
+<td>Single station</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="measuring-vertical-nitrate-fluxes">Measuring vertical nitrate fluxes</h3>
+<p>Barring regionally important processes such as upwelling <span class="citation" data-cites="carmack2003wind kampf2016upwelling randelhoff2018short">(Carmack and Chapman, 2003; Kämpf and Chapman, 2016; Randelhoff and Sundfjord, 2018)</span> the most prevalent form of the upward transport of nitrate in the ocean is turbulent diffusion <span class="citation" data-cites="lewis1986vertical">(Lewis et al., 1986)</span>, which mixes the spent surface waters with deeper, more nutrient-rich waters, thereby replenishing their nitrate reservoir. A vertical turbulent nitrate flux is, by definition, the product of a so-called “diapycnal eddy diffusivity” with the vertical gradient of nitrate. (This is completely analogous to any other tracer such as temperature or salinity. The interested reader is referred to the vast literature on turbulent flows.)</p>
+<p>To estimate both those quantities, one has to measure the turbulence, and a vertical profile of nitrate concentrations, respectively. Determining nitrate is the easy part because only the non-turbulent background is needed; one can use either bottle samples or, preferably, optical nitrate sensors to get a better vertical resolution <span class="citation" data-cites="alkire2010sensor randelhoff2016vertical">(Alkire et al., 2010; Randelhoff et al., 2016)</span>. While care should be taken to calibrate the absolute concentrations, such biases are usually depth-independent and hence do not matter for the calculation of the gradients <span class="citation" data-cites="randelhoff2016vertical">(see Appendix of Randelhoff et al., 2016)</span>. Measuring turbulence is more challenging because it requires either measurements with meticulous instruments, requiring dedicated ship time and personnel, or parameterizations that add layers of uncertainty <span class="citation" data-cites="guthrie2013revisiting">(Guthrie et al., 2013)</span>. More detail is given in the Appendix.</p>
+<h2 id="comparison-between-nitrate-fluxes-and-primary-production">Comparison between nitrate fluxes and primary production</h2>
+<p>redfield ratio</p>
+<p>To convert between units of carbon and nitrogen, we employed a C:N ratio of 6.6 mol C: mol N, the so-called Redfield ratio <span class="citation" data-cites="redfield1963influence">(Redfield et al., 1963)</span>. This particular choice of C:N ratio may be criticized on the grounds that they vary depending on type of organic matter and other environmental factors <span class="citation" data-cites="refs">(<span class="citeproc-not-found" data-reference-id="refs"><strong>???</strong></span>)</span>, and that C:N ratios observed in the Arctic in particular are usually higher <span class="citation" data-cites="refs">(<span class="citeproc-not-found" data-reference-id="refs"><strong>???</strong></span>)</span>. However, turbulence measurements usually come with a much larger margin of error, and we do therefore neglect these variations in our calculations. See the appendix for an extended discussion of error margins.</p>
+<h1 id="results">Results</h1>
+<h2 id="seasonal-cycle-of-surface-nitrate-concentration">Seasonal cycle of surface nitrate concentration</h2>
+<p>Winter surface nitrate concentrations in the Atlantic sector reach high values around 11 µM. In the Central Arctic Ocean, concentrations stay constant at roughly 1-3 µM N all year round, whereas in the coastal Beaufort Sea they may reach intermediate values (Fig. 1).</p>
+<figure>
+<img src="../nb_fig/FIGURE_NO3-COMP_chart_seasonal_cycle.png" id="fig:NO3-COMP_chart_seasonal_cycle" alt="" /><figcaption>Figure 1: Seasonal cycles of surface nitrate concentrations in different regions of the Arctic.</figcaption>
+</figure>
+<h2 id="nitrate-fluxes">Nitrate fluxes</h2>
+<p>Nitrate flux estimates are scarce given that they require co-located measurements of both turbulence and nitrate concentrations; however, they slowly approach Pan-Arctic coverage (Fig. 2). Highest values (&gt; 1 mmol m-2 d-1) are found in the Atlantic sector and lowest (&lt;&lt; 0.1 mmol m-2 d-1) in the central basins.</p>
+<figure>
+<img src="../nb_fig/FIGURE_FN-COMP_map.png" id="fig:FN-COMP_map" alt="" /><figcaption>Figure 2: All nitrate flux compilation across the AO compiled for this study, irrespective of season, vertical level, and whether or not they represent only single stations or large-scale averages. The smaller dots indicate single stations, whereas the big dots represent averages over larger time or space scales.</figcaption>
+</figure>
+<h2 id="nitrate-flux-seasonality">Nitrate flux seasonality</h2>
+<p>The seasonal cycle of surface nitrate concentration is also reflected in its upward fluxes (Fig. 3), where the Atlantic sector shows values an order of magnitude below those in winter. The large variety of different fluxes measured in summer, on the other hand, likely reflects the higher abundance of single-station observations then. Observations over a full seasonal cycle are only available in the Barents sea / shelf slope area. In contrast, in the non-overturning regions, fluxes are lower overall, but there is not enough data to test whether the seasonality itself is, in relative terms, really much weaker there.</p>
+<figure>
+<img src="../nb_fig/FIGURE_FN-COMP_chart_seasonal_cycle.png" id="fig:FN-COMP_chart_seasonal_cycle" alt="" /><figcaption>Figure 3: Nitrate fluxes as a function of the month. Blue lines mark the regions where the water column overturns in winter and orange those where it does not. Thick lines represent measurements, whereas thin lines denote values (stipulated by the authors) that extrapolate the measured fluxes based on general considerations about stratification and the seasonality of primary production. Pale lines reflect single stations, potentially not very representative of the regional or seasonal scale.</figcaption>
+</figure>
+<h1 id="discussion">Discussion</h1>
+<h2 id="nitrate-fluxes-as-a-function-of-stratification-and-seasonality">Nitrate fluxes as a function of stratification and seasonality</h2>
+<p>We found that the vertical nitrate flux in winter predicted the pre-bloom nitrate pool remarkably well (Fig. 4A). Indeed, fluxes are often by an order of magnitude smaller in summer. Consequently, deep winter mixing, where it occurs, dominates the annual nitrogen budget, expanding on direct measurements of a full annual cycle over the Barents Sea shelf break <span class="citation" data-cites="randelhoff2015seasonal">(Randelhoff et al., 2015)</span>.</p>
+<p>Given this knowledge,</p>
+<figure>
+<img src="../nb_fig/FIGURE_FN-COMP_chart_vs_NO3.png" id="fig:FN-COMP_chart_vs_NO3" style="width:50.0%" alt="" /><figcaption>Figure 4: The surface nitrate inventory dominated by variations in turbulent mixing. The annual pre-bloom nitrate inventory graphed as a function of (A) the vertical nitrate flux during winter and (B) the strength of water column stratification. Data sources: (A) nitrate flux compilation, (B) nitrate profile database.</figcaption>
+</figure>
+<p>Potential advective processes do hence not play as large a role at Pan-Arctic scales, at least the locations and times presented here. Our results explicitly and quantitatively confirm the qualitative perception that vertical nitrate fluxes determine the seasonality of the upper ocean nitrate inventory, as has been surmised multiple times in the literature <span class="citation" data-cites="carmack2006food tremblay2015global">(see e.g. Carmack and Wassmann, 2006; Tremblay et al., 2015)</span> based on general considerations of stratification and bathymetry.</p>
+<p>The two dominant factors explaining nitrate flux variability are stratification and seasonality. A number of studies and reviews has established that in terms of stratification, the Arctic Ocean can be divided into two sectors: A weakly stratified Atlantic one, and a strongly stratified Pacific one <span class="citation" data-cites="carmack2007alphabeta bluhm2015tale tremblay2015global">(Carmack, 2007; Bluhm et al., 2015; Tremblay et al., 2015)</span>. Stratification inhibits vertical mixing <span class="citation" data-cites="osborn1980estimates">(Osborn, 1980)</span> and hence turbulent nitrate fluxes, as has been demonstrated at a Pan-Arctic scale <span class="citation" data-cites="randelhoff2016regional">(Randelhoff and Guthrie, 2016)</span> and between process stations on different sides of the Barents Sea polar front <span class="citation" data-cites="sundfjord2007observations wiedmann2017upward">(Sundfjord et al., 2007; Wiedmann et al., 2017)</span>.</p>
+<h2 id="primary-production-constrained-by-nitrate-fluxes">Primary production constrained by nitrate fluxes</h2>
+<p>The close match between nitrate fluxes and nitrate inventory demonstrates the eminent role of stratification and turbulence in Arctic Ocean nutrient dynamics. The real value of measuring nitrate fluxes, however, lies in constraining primary production <span class="citation" data-cites="tremblay2015global">(see e.g. Tremblay et al., 2015)</span>.</p>
+<p>The most commonly employed notion of “primary production” is “net primary production”, comprised of both new and regenerated production Fig. 10. Due to nitrogen scarcity in summer Fig. 8, regenerated production is a significant if not dominant fraction of NPP <span class="citation" data-cites="ref">(<span class="citeproc-not-found" data-reference-id="ref"><strong>???</strong></span>)</span>. Hence NPP is significantly larger than the amount of inorganic nitrogen that is converted into organic matter, which is the quantity than can be reasonably expected to be constrained by nitrate fluxes. Indeed, for one ocean colour remote sensing algorithm, net primary production is at least an order of magnitude larger than the corresponding wintertime nitrate fluxes [supmat].</p>
+<h2 id="new-production-and-export-production">New production and export production</h2>
+<p>Two other measures of primary production are more directly related to the assimilation of inorganic into organic nitrogen: First, new production <span class="citation" data-cites="dugdale1967uptake">(Dugdale and Goering, 1967)</span>, which relies only on nitrate brought up from below the photic zone. It is customarily measured by incubating phytoplankton in seawater spiked with some nitrate, using a radioisotope to track its incorporation into organic matter <span class="citation" data-cites="collos1987calculations">(Collos, 1987)</span>. Second, export production <span class="citation" data-cites="eppley1979flux">(Eppley and Peterson, 1979)</span>, which in its most basic form is measured as the downward particle export over a given time interval using sediment traps <span class="citation" data-cites="zeitzschel1978new">(Zeitzschel et al., 1978)</span>. This number is stipulated to be similar to the upward nitrate flux based on conservation of mass alone.</p>
+<p>Over seasonal time scales, both the upward nitrate flux in winter, the particle export at 200 m depth, and new production (nitrate uptake) match up reasonably well for Baffin Bay, the Barents Sea, the Southern Beaufort Sea, and the Central basin Fig. 5, both in regional patterns and order of magnitude. Other regions lack estimates of the winter nitrate flux. Indeed, annual budgets have to be closed if nitrate inventories are not to change in the long term.</p>
+<figure>
+<img src="../nb_fig/FIGURE_PP_FN_NEWP_EXP_regional.png" id="fig:PP_FN_NEWP_EXP_regional" alt="" /><figcaption>Figure 5: Upward nitrate flux, new production, and vertical downward particle export (Redfield-equivalent) at 200 m depth compared across four regions of the Arctic Ocean. Data sources: Nitrate fluxes, see Table 1; new production, <span class="citation" data-cites="sakshaug2004primary">Sakshaug (2004)</span>; export production, <span class="citation" data-cites="wiedmann2015potential">Wiedmann (2015)</span></figcaption>
+</figure>
+<p>A somewhat different matter is the hypothesis that during the summer, upward mixing of nitrate limits the amount of new production in the short term. Here, the published literature gives a less clear picture (Fig. 6). <span class="citation" data-cites="randelhoff2016vertical">Randelhoff et al. (2016)</span> measured vertical nitrate flux and new production for both spring and summer in the marginal ice zone around northern Fram Strait. In spring, uptake of nitrate was considerably larger than its vertical supply as nitrate was not yet depleted and hence did not limit photosynthesis. In summer, on the other hand, when the surface water was nitrate-depleted, new production was an order of magnitude <em>smaller</em> than nitrate supply. Although the explanation may be composite, a likely contribution to this discrepancy was the seasonal buildup of dissolved organic matter observed during the same field campaigns (Fig. 7). <span class="citation" data-cites="paulsen2018asynchronous">Paulsen et al. (2018)</span> findings hence stressed the importance of the recycling of nitrogen in the microbial loop when considering nutrient fluxes over short subseasonal time scales. The nitrate uptake rate measurements by <span class="citation" data-cites="randelhoff2016vertical">Randelhoff et al. (2016)</span>, however, only considered assimilation into the particulate pool. <span class="citation" data-cites="nishino2018biogeochemical">Nishino et al. (2018)</span> found good agreement between upward nitrate flux, nitrate uptake, and export of particulate organic matter, based on a case study in the Chukchi sea. This may represent differences in methodology or in the dynamics of the system.</p>
+<figure>
+<img src="../nb_fig/FIGURE_PP_incubations_vs_flux.png" id="fig:PP_incubations_vs_flux" alt="" /><figcaption>Figure 6: New production incubations compared with upward nitrate flux for two case studies. Data sources: <span class="citation" data-cites="randelhoff2016vertical">Randelhoff et al. (2016)</span>, <span class="citation" data-cites="nishino2015nutrient">Nishino et al. (2015)</span></figcaption>
+</figure>
+<figure>
+<img src="../nb_fig/FIGURE_PP_chart_paulsen.png" id="fig:PP_chart_paulsen" alt="" /><figcaption>Figure 7: Annual cycle of dissolved (DON) and particulate organic nitrogen (PON). Shaded areas indicate the standard deviation. Data source: <span class="citation" data-cites="paulsen2018asynchronous">Paulsen et al. (2018)</span>, Table 1</figcaption>
+</figure>
+<p>Diametrically opposed, <span class="citation" data-cites="law2001lagrangian">Law et al. (2001)</span> and <span class="citation" data-cites="rees2001carbon">Rees et al. (2001)</span> found that vertical mixing supplied 33 % of the nitrate demand at a North Atlantic site, in agreement with a study by <span class="citation" data-cites="horne1996turbulence">Horne et al. (1996)</span> in the Gulf of Maine. Even in the Mauritanian upwelling region, nitrate flues in excess of 100 mmol m-2 d-1 accounted for only 10-25% of observed net community production <span class="citation" data-cites="schafstall2010tidalinduced">(Schafstall et al., 2010)</span>. Even more extremely, <span class="citation" data-cites="shiozaki2011imbalance">Shiozaki et al. (2011)</span> found that one location on the continental shelf of the East China Sea “exhibited a considerable discrepancy between the nitrate assimilation rate (1500 mmolN m−2 d−1) and vertical nitrate flux (98 mmolN m−2 d−1)”, and they went so far as concluding that “the assumption of a direct relationship between new production, export production, and measured nitrate assimilation is misplaced, particularly regarding the continental shelf of the [East China Sea]”.</p>
+<h1 id="future-scenarios">Future scenarios</h1>
+<blockquote>
+<p>Re: winter vs summer fluxes… It also means that if the ice-free season and hence also the more stratified period are prolonged, very little additional nitrogen is injected into the upper layer.</p>
+</blockquote>
+<h2 id="nitrogen-limitation-of-primary-production">Nitrogen limitation of primary production</h2>
+<p>Nitrogen scarcity plays a large role in constraining Arctic marine primary production <span class="citation" data-cites="moore2013processes tremblay2015global">(Moore et al., 2013; Tremblay et al., 2015)</span>. Nitrate limitation holds across large swaths of the Arctic, but not including some of the central basin, where summer surface concentrations are in excess of e.g. 5 µM in the Makarov Basin Fig. 8. These high nitrate concentrations are usually taken to indicate regionally important light limitation by perennial sea ice cover <span class="citation" data-cites="codispoti2013synthesis">(Codispoti et al., 2013)</span>.</p>
+<figure>
+<img src="../nb_fig/FIGURE_NO3-COMP_map_no3_summer.png" id="fig:NO3-COMP_map_no3_summer" alt="" /><figcaption>Figure 8: Summer surface nitrate concentration. Nutrient limitation of phytoplankton growth is usually quantified in terms of a <em>half-saturation constant</em> (of a Michaelis-Menten kinetics), above which nutrient uptake rates benefit less and less from increasing ambient nutrient concentrations. Reported values of such half-saturation constants vary widely according to species and physiological state, but reasonable values usually cluster around an order of magnitude of 1 µM <span class="citation" data-cites="wassmann2006modelling">(e.g. Wassmann et al., 2006)</span>.</figcaption>
+</figure>
+<p>Regarding nitrate concentrations as indicators of potential growth however, a cautionary remark is in order. Since the nitrate supply, like phytoplankton growth, is a rate and not a stock, its present-day inventory alone does not yield sufficient information to infer possible limitations in future scenarios. Hence the summer surplus nitrate that is observed in the central AO may only be available transiently while the ice cover shrinks, but not in a steady-state situation without summer sea ice. Similarly, a deeper euphotic zone (e.g. due to a more transparent ice cover) could enhance growth in subsurface waters, richer in nutrients, but the resupply rate of nitrogen ultimately decides about potential lasting increases in new production.</p>
+<p><span class="citation" data-cites="randelhoff2016regional">Randelhoff and Guthrie (2016)</span> provided estimates of end-of-century new production, given presently observed turbulence and potential future increases in stratification observed in a numerical circulation model <span class="citation" data-cites="nummelin2015consequences">(Nummelin et al., 2015)</span>. They concluded that there may be an approximately 50% increase in new production in the Amundsen Basin if the system were to turn to nitrate limitation in otherwise unchanged conditions; however, most of that increase may fall victim to future increases in stratification which in turn decreases fluxes.</p>
+<p>Contrarily, <span class="citation" data-cites="polyakov2017greater">Polyakov et al. (2017)</span> posited that an ongoing Atlantification will lead to deeper winter convection in the Eurasian Basin. In fact, Atlantic water, being less stratified, is associated with high nitrate fluxes. A spreading of Atlantic waters into the central AO could hence add upper-ocean nitrate, but no estimates of the magnitude of that effect have been published to our knowledge. As Atlantic Water is also the principal source of heat in the Arctic Ocean, it has been implicated in recent sea ice loss <span class="citation" data-cites="ivanov2016arctic polyakov2017greater">(Ivanov et al., 2016; Polyakov et al., 2017)</span>, and hence could regionally add nutrients and light to the system and so relieve nutrient and light limitation at the same time <span class="citation" data-cites="randelhoff2018seasonality">(Randelhoff et al., 2018)</span>. The recent decreases of sea ice extent in Northern Fram Strait and north of Svalbard <span class="citation" data-cites="onarheim2018seasonal">(Onarheim et al., 2018)</span> indicate that such a process is already well underway. Something similar might be happening in the Pacific inflow area in the Bering and Chukchi seas. On the other hand, more stratified areas with higher influence of riverine or pacific freshwater may get even more stratified and hence more nitrogen-limited.</p>
+<h2 id="ice-cover-and-wind-driven-turbulence">Ice cover and wind-driven turbulence</h2>
+<p>A decreasing sea ice cover has been hypothesized to enhance the input of wind energy into the ocean <span class="citation" data-cites="dosser2016dynamics">(Dosser and Rainville, 2016)</span>, but increasing stratification will likely counteract the resulting increased mixing.</p>
+<p>More concretely, based on a two-year mooring timeseries of velocity observations on the shallow Chukchi shelf, <span class="citation" data-cites="rainville2009observations">Rainville and Woodgate (2009)</span> showed that during the period of heavy winter ice cover, water velocities, and hence consequently turbulent mixing, were strongly reduced. While less ice cover did in fact enhance input of wind energy in the perennially stratified Beaufort Sea basin in observations by <span class="citation" data-cites="lincoln2016wind">Lincoln et al. (2016)</span>, little of that mixing lead to increases in fluxes from the intermediary warm, nutrient-rich layers due to the strong stratification. The strong stratification was also the hypothetical explanation by <span class="citation" data-cites="guthrie2013revisiting">Guthrie et al. (2013)</span> for the lack of change in current profiler-inferred mixing estimates compared to historical records in the central Arctic Ocean basin. SImilarly, <span class="citation" data-cites="chanona2018variability">Chanona et al. (2018)</span>, analyzing CTD profiles collected in the Canadian Arctic using an internal-wave based finescale parameterisation, found a weak seasonal cycle in ε but no interannual trend from 2002 through 2016.</p>
+<p>In summer, when ice is broken up and in more or less free drift, wind energy input into the upper ocean is higher in ice-covered than open water areas <span class="citation" data-cites="martin2016impact">(Martin et al., 2016)</span>. Hence retreating summer sea ice may not immediately lead to increased rates of turbulent energy dissipation. However, melting sea ice causes low-salinity water layers in the upper tens of meters <span class="citation" data-cites="randelhoff2017turbulent">(Randelhoff et al., 2017)</span>, mean that nutrient fluxes were approximately twice as much in the open-water stations in the MIZ measured by <span class="citation" data-cites="randelhoff2016vertical">Randelhoff et al. (2016)</span>. While these increased fluxes are close to neglible in terms of total annual nitrate supply, they may slightly relax nutrient limitation during the summer and hence change plankton community composition <span class="citation" data-cites="li2009smallest">(Li et al., 2009)</span>. In addition, if the overall loss of sea ice eventually leads to drastic changes in stratification as such, that could be an avenue to changing nutrient fluxes as well.</p>
+<h2 id="arctic-nitrate-fluxes-in-a-global-context">Arctic nitrate fluxes in a global context</h2>
+<p>Based on a literature review (Table 2), Arctic vertical nitrate fluxes tend to be approximately one order of magnitude lower than in the rest of the world ocean (Fig. 9). Even though study sites in the global ocean may be biased by measurements seeking to explain high biological productivity (most often as the result of strong mixing), this simple comparison demonstrates the considerable gap between potential for new and hence harvestable production in most of the Arctic Ocean and the world’s fishery grounds.</p>
+<div id="tbl:nitrate_fluxes_other">
+<table>
+<caption>Table 2: Nitrate fluxes in the global ocean, excluding the Arctic. <span class="math inline">\(^\ast\)</span><span class="citation" data-cites="schafstall2010tidalinduced">Schafstall et al. (2010)</span> was given with a typo by <span class="citation" data-cites="bourgault2011turbulent">Bourgault et al. (2011)</span>. TBD: do exhaustive/systematic literature search.</caption>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Reference</th>
+<th>FN</th>
+<th>Region</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="citation" data-cites="lewis1986vertical">Lewis et al. (1986)</span></td>
+<td>0.14</td>
+<td>Subtropical North Atlantic</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="jenkins1988nitrate">Jenkins (1988)</span></td>
+<td>1.6</td>
+<td>Subtropical North Atlantic</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="hamilton1989vertical">Hamilton et al. (1989)</span> re-analyzing <span class="citation" data-cites="lewis1986vertical">Lewis et al. (1986)</span></td>
+<td>0.85</td>
+<td>Subtropical North Atlantic</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="carr1995physical">Carr et al. (1995)</span></td>
+<td>1.9</td>
+<td>Equatorial Pacific (5 °N - 5 °S)</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="carr1995physical">Carr et al. (1995)</span></td>
+<td>4.3</td>
+<td>Equatorial Pacific (1 °N - 1 °S)</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="horne1996turbulence">Horne et al. (1996)</span></td>
+<td>0.047</td>
+<td>North Atlantic, Georges Bank</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="horne1996turbulence">Horne et al. (1996)</span></td>
+<td>0.18</td>
+<td>North Atlantic, Georges Bank</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="planas1999nitrate">Planas et al. (1999)</span></td>
+<td>0.38</td>
+<td>Central Atlantic</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="law2001lagrangian">Law et al. (2001)</span></td>
+<td>1.8</td>
+<td>Subarctic North Atlantic</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="sharples2001internal">Sharples et al. (2001)</span></td>
+<td>12.0</td>
+<td>New Zealand Shelf</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="law2003vertical">Law (2003)</span></td>
+<td>0.17</td>
+<td>Antarctic Circumpolar Current</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="hales2005irreversible">Hales (2005)</span></td>
+<td>9.0</td>
+<td>Oregon Shelf Upwelling System</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="sharples2007springneap">Sharples et al. (2007)</span></td>
+<td>1.3</td>
+<td>Celtic Sea shelf edge (neap tide)</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="sharples2007springneap">Sharples et al. (2007)</span></td>
+<td>9.0</td>
+<td>Celtic Sea shelf edge (spring tide)</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="hales2009turbulent">Hales et al. (2009)</span></td>
+<td>0.9</td>
+<td>New England shelf break front (seaward of)</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="hales2009turbulent">Hales et al. (2009)</span></td>
+<td>5.2</td>
+<td>New England shelf break front (shoreward of)</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="rippeth2009diapcynal">Rippeth et al. (2009)</span></td>
+<td>1.5</td>
+<td>Irish Sea</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="martin2010supply">Martin et al. (2010)</span></td>
+<td>0.09</td>
+<td>North Atlantic, Porcupine Abyssal Plain</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="schafstall2010tidalinduced">Schafstall et al. (2010)</span></td>
+<td>1.0</td>
+<td>Mauritanian Upwelling (offshore)</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="schafstall2010tidalinduced">Schafstall et al. (2010)</span></td>
+<td>3.7</td>
+<td>Mauritanian Upwelling (shelf)</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="schafstall2010tidalinduced">Schafstall et al. (2010)</span></td>
+<td>10.0</td>
+<td>Mauritanian Upwelling (slope)</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="shiozaki2011imbalance">Shiozaki et al. (2011)</span>, mean of values in their Table 1</td>
+<td>0.25</td>
+<td>North Pacific, East China Sea shelf</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="kaneko2013observations">Kaneko et al. (2013)</span></td>
+<td>0.003</td>
+<td>North Pacific, Kuroshio (south of front)</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="kaneko2013observations">Kaneko et al. (2013)</span></td>
+<td>0.34</td>
+<td>North Pacific, Kuroshio (north of front)</td>
+</tr>
+<tr class="odd">
+<td><span class="citation" data-cites="cyr2015turbulent">Cyr et al. (2015)</span></td>
+<td>0.21</td>
+<td>St. Lawrence Gulf, Canada</td>
+</tr>
+<tr class="even">
+<td><span class="citation" data-cites="cyr2015turbulent">Cyr et al. (2015)</span></td>
+<td>95.0</td>
+<td>St. Lawrence Gulf, Canada (shallow sill)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<figure>
+<img src="../nb_fig/FIGURE_FN-COMP_comparison_world.png" id="fig:FN-COMP_comparison_world" alt="" /><figcaption>Figure 9: Distributions (kernel density estimates) of nitrate fluxes based on Tables 1 and 2. Note that these curves give each observation the same weight, regardless of areal or temporal scope.</figcaption>
+</figure>
+<h1 id="conclusions">Conclusions</h1>
+<h2 id="summary">Summary</h2>
+<ol type="1">
+<li>Determining nitrate fluxes is a laborious task. With measurements accumulating through the last 10 years, we are now approaching a Pan-Arctic baseline. In individual regions however, perhaps with the exception of the Barents Sea, seasonal coverage remains patchy at best.</li>
+<li>Arctic nitrate fluxes are, on average, one to two orders of magnitude smaller than those observed elsewhere in the world ocean.</li>
+<li>The spatial patterns of the upper ocean nitrate inventory is well explained by vertical nitrate fluxes, and the seasonality in these fluxes is reflected in the seasonality of the nitrate fluxes.</li>
+<li>Nitrate fluxes are a powerful tool to constrain export fluxes and new production, both of which are hard to measure autonomously. There is an important distinction between ”(net) primary production” and “new production”, highlighted by the fact that the former is approximately an order of magnitude larger than annual nitrate supply.</li>
+<li>On sub-seasonal or shorter timescales, the coupling between nitrate supply and new production is unclear, mostly due to lack of appropriate time series data.</li>
+<li>Advances in turbulence-ecosystem coupling will require autonomous sampling and timeseries.</li>
+</ol>
+<h2 id="nitrate-fluxes-in-diagnosis-and-prognosis-of-primary-production">Nitrate fluxes in diagnosis and prognosis of primary production</h2>
+<p>While currently publicly available datasets are more comprehensive new and export production <span class="citation" data-cites="stein2004organic">(Stein and MacDonald, 2004)</span> than for nitrate fluxes, they posses some drawbacks when it comes to large-scale patterns. Incubations to determine new production are usually point measurements, and hence averaging them is not trivial. Sediment traps, while measuring export fluxes at a single location, integrate the time dimension, and are hence more repesentative, but also require a large logistic effort. Chemical tracer approaches <span class="citation" data-cites="moran2003does">(e.g. Moran et al., 2003)</span> make the data acquisition phase easier, but still require water samples and are hence not easily amenable to autonomous exploration. In sum, current Arctic Ocean exploration does not scale well. NO3 fluxes, on the other hand, can be estimated purely based on physical sensor data, hence with larger scope both in time and space.</p>
+<p>Such turbulence measurements do not necessarily have to be conducted using microstructure profilers - mixing can also be estimated from current shear or density strain finestructure with more standard instruments, which may work especially well in discerning relative magnitudes but can also be calibrated using regional microstructure estimates <span class="citation" data-cites="gargett2008determining guthrie2013revisiting polzin2014finescale chanona2018variability">(Gargett and Garner, 2008; Guthrie et al., 2013; Polzin et al., 2014; Chanona et al., 2018)</span>. Parameterizations of this kind, relying on models of internal wave breaking, are most useful away from boundaries, hence for scenarios of perennial stratification where year-round background fluxes dominate <span class="citation" data-cites="randelhoff2016regional">(Randelhoff and Guthrie, 2016)</span>, and less so to characterize near-surface mixing.</p>
+<p>Turbulence also obeys tight physical constraints imposed by wind, tidal and other energy available for mixing, and by the freshwater (density) fluxes that cause background stratification. Hence nitrate fluxes are more easily constrained than plankton phytophysiology that is notoriously variable across species and environmental conditions.</p>
+<h2 id="perspectives">Perspectives</h2>
+<p>The statistical bulk approach of <span class="citation" data-cites="randelhoff2016vertical">Randelhoff et al. (2016)</span> and related work in the European Arctic focused largely on vertical transport processes. Modelling work <span class="citation" data-cites="watanabe2014enhanced">(Watanabe et al., 2014)</span> has led to an appraisal of the importance of mesoscale turbulence for cross-shelf transport and nutrient supply in the Chukchi sea <span class="citation" data-cites="nishino2019inprep">(<span class="citeproc-not-found" data-reference-id="nishino2019inprep"><strong>???</strong></span>)</span>. Some studies suggest that eddies may also contribute to cross-shelf transport along the West Spitsbergen Current <span class="citation" data-cites="hattermann2016eddy">(Hattermann et al., 2016)</span>. <span class="citation" data-cites="crews2018mesoscale">Crews et al. (2018)</span> found eddies may contribute to ventilation of halocline waters in the European Arctic, which does not directly contribute to mixed-layer nitrate but will be apparent in the upward vertical fluxes measured out of the halocline waters. <span class="citation" data-cites="johnson2010nitrate">Johnson et al. (2010)</span>, working in the Subtropical North Pacific, stressed the importance of event-driven upward nitrate transport not easily captured by vertical diffusivities, and even the possibility of immediate utilisation nitrate in an otherwise diabatic isopycnal excursion, for example associated with a passing eddy. Attention is required summing these contributions, however, as there is a certain danger of double counting nitrate fluxes in eddies <span class="citation" data-cites="martin2001mechanisms martin2003estimates">(Martin and Richards, 2001; Martin and Pondaven, 2003)</span>.</p>
+<p>Lastly, turbulent mixing is much more than only the vertical nitrate flux. It affects predator-prey interactions, nutrient uptake rates at the cell level, light exposure of individual cells, etc. In fact, mixing and variability is a resource in itself that can be exploited by different plankton life strategies. It is unlikely that these issues are going to be resolved in the field anytime soon, but they are important to keep in mind in particular when interpreting biological hotspots.</p>
+<h1 id="acknowledgments">Acknowledgments</h1>
+<p>The present paper started taking shape around the 4th “Symposium on Pan-Arctic Integration”, held in Motovun, Croatia, 2017, and we thank all participants for inspiring discussions. Data exploration and visualization relied heavily on the <a href="http://holoviews.org">Holoviews library</a> <span class="citation" data-cites="stevens2015holoviews">(Stevens et al., 2015)</span>.</p>
+<p>BGC-Argo Floats in Baffin Bay funded through the NAOS project.</p>
+<p>TBD:</p>
+<h1 id="supplemental-material">Supplemental Material</h1>
+<p>The supplemental material, accessible at [https://XXX], contains:</p>
+<ul>
+<li>The python code necessary to reproduce all analyses and figures, licensed under GNU GPL3.</li>
+<li>The data, as plotted in all figures, in machine-readable formats.</li>
+<li>An interactive version of this article where figures can be zoomed, panned, and selectively highlighted (as appropriate) leveraging the <a href="http://bokeh.pydata.org">Bokeh library</a> <span class="citation" data-cites="bokehdevelopmentteam2018bokeh">(Bokeh Development Team, 2018)</span>, licensed under CC-BY 4.0 like the present document.</li>
+</ul>
+<h1 id="appendix">Appendix</h1>
+<h2 id="the-marine-nitrogen-cycle">The marine nitrogen cycle</h2>
+<p>Discussions of ocean surface nitrogen budgets center around the marine nitrogen cycle. Fig. 10 shows a simplified version adapted to Arctic conditions. The main component is the cycling between inorganic nitrate and particulate organic nitrogen (PON). Upward transport of NO3 compensates nitrate uptake by algae into PON <span class="citation" data-cites="dugdale1967uptake">(Dugdale and Goering, 1967)</span> and subsequent sinking of this organic matter. The loop is closed by remineralization into nitrate at depth. Because of the scarcity of nitrogen, there is also intense recycling of nitrogen that has already been assimilated into organic matter, which is called regenerated production.</p>
+<figure>
+<img src="../fig/ncycle.png" id="fig:ncycle" style="width:50.0%" alt="" /><figcaption>Figure 10: A simplified marine nitrogen cycle (right) and idealized Arctic hydrography (left). TBD: Finalize this figure</figcaption>
+</figure>
+<p>Additional complexity arises from a number of sources, sinks, and recycling processes not accounted for in this simplistic view. One of the conclusions of the present study is that we do not need to invoke those processes to understand Arctic surface layer budgets on a pan-Arctic scale, but they may be important depending on the regional scope.</p>
+<p>Advection with ocean currents manifests itself largely as transport with the Pacific and Atlantic currents that e.g. <span class="citation" data-cites="torres-valdes2013export">Torres-Valdés et al. (2013)</span> have discussed. For the most part, these currents are subducted under local (Arctic) water masses and can hence be accounted for as part of the vertical fluxes downstream. As these currents come from further south, the surface waters they carry are as nutrient-depleted as the Arctic surface waters and hence we do not believe that. Riverine inputs are thought to be sufficiently small to be neglected at larger-than-regional scales <span class="citation" data-cites="tank2012processing">(see e.g. Tank et al., 2012)</span>. Some of the produced PON is also harvested e.g. by higher trophic levels or fisheries <span class="citation" data-cites="valiela2015marine">(e.g. Valiela, 2015)</span>, although the latter process is likely only regionally important, e.g. in the Barents Sea.</p>
+<h2 id="the-vertical-layering-of-arctic-ocean-nitrate">The vertical layering of Arctic Ocean nitrate</h2>
+<p>Fluxes are easiest to measure across strong gradients. A given vertical profile of nitrate concentrations in the Arctic Ocean can schematically be vertically divided by two nitraclines: First, a seasonal one, which marks the transition from surface waters, modulated by seasonal ice meltwater and algal growth, to the remnant winter mixed layer. Second, and only present in the deep basins of the Arctic Oceans, one that we dub “perennial” as it is not eroded and re-established on an annual basis.</p>
+<p>The seasonal nitracline is completely mixed during winter, rendering fluxes hard to estimate using the “diffusivity times gradient” formula. Across the perennial nitracline, fluxes can be estimated year-round stipulating the seasonal variations in nitracline dissipation are minor, a method exploited by <span class="citation" data-cites="randelhoff2016regional">Randelhoff and Guthrie (2016)</span> to estimate pan-Arctic patterns of upward nitrate supply in the deep basin. In practice, the two nitraclines are often not clearly delineated. The distinctive characteristics of the two nitraclines are most easily seen in the Eurasian Basin, where deep winter mixed layers are clearly separated from underlying Atlantic Waters. In the Canadian Basin, strong stratification prevents winter mixing from penetrating deep into the nitracline <span class="citation" data-cites="peralta-ferriz2015seasonal">(Peralta-Ferriz and Woodgate, 2015)</span>, leading to relatively small seasonal excursions in surface nutrient concentrations and a less distinct winter remnant mixed layer.</p>
+<h2 id="measuring-turbulence">Measuring turbulence</h2>
+<p>The most direct way of determining the nitrate flux is measuring the so-called “dissipation of turbulent kinetic energy” (<span class="math inline">\(\epsilon\)</span>) traditionally using free-falling microstructure profilers <span class="citation" data-cites="lueck2002oceanic">(Lueck et al., 2002)</span>. <span class="math inline">\(\epsilon\)</span> can also be estimated from larger-scale current shear or strain visible in CTD profiles <span class="citation" data-cites="guthrie2013revisiting">(Guthrie et al., 2013)</span>, even though that adds another layer of parameterizations. Once <span class="math inline">\(\epsilon\)</span> is determined, its accuracy usually cited as being within a factor of two <span class="citation" data-cites="ref">(<span class="citeproc-not-found" data-reference-id="ref"><strong>???</strong></span>)</span>, the vertical turbulent diffusivity can be calculated, following <span class="citation" data-cites="osborn1980estimates">Osborn (1980)</span>, as</p>
+<p><span id="eq:osborn"><span class="math display">\[K_\rho = \Gamma\frac{\epsilon}{N^2}\qquad(1)\]</span></span></p>
+<p>where <span class="math inline">\(N^2\)</span> is the buoyancy frequency and <span class="math inline">\(\Gamma\approx 0.2\)</span> is the mixing coefficient that reflects how much of <span class="math inline">\(\epsilon\)</span> is available for adiabatic mixing. Eq. 1 has a number of known issues, a major one of which is that <span class="math inline">\(\Gamma\)</span> is not constant. A variety of different parameterizations have been proposed <span class="citation" data-cites="shih2005parameterization bouffard2013diapycnal">(e.g. Shih et al., 2005; Bouffard and Boegman, 2013)</span>, with no clear alternative emerging. Eq. 1 is hence the de facto standard <span class="citation" data-cites="gregg2018mixing">(Gregg et al., 2018)</span>, and in fact all turbulence-based estimates of the vertical nitrate flux compiled for this paper are based on it, albeit e.g. <span class="citation" data-cites="sundfjord2007observations">Sundfjord et al. (2007)</span> determined the value of <span class="math inline">\(\Gamma\)</span> that best fit their observations using a detailed analysis of microstructure data.</p>
+<p>Another method to determine vertical nitrate fluxes, less direct, uses a set of nitrate profiles through fall and winter <span class="citation" data-cites="randelhoff2015seasonal">(Randelhoff et al., 2015)</span>. It has been employed to calculate two of the fluxes presented in this study. Vertically integrating the successive differences between them, one essentially reverses the calculation of net community production by the nitrate drawdown between winter and summer <span class="citation" data-cites="codispoti2013synthesis">(Codispoti et al., 2013)</span>. <span class="citation" data-cites="randelhoff2015seasonal">Randelhoff et al. (2015)</span> provided a brief overview over potentially interfering processes such as nitrogen fixation and concluded they were likely not significantly disturbing the annual budgets, but it has to be acknowledged that data is sparse.</p>
+<h2 id="uncertainties">Uncertainties</h2>
+<p>The preceding section demonstrated the uncertainties surrounding the determination of turbulence profiles.</p>
+<p>Oceanographers used to geochemical or biological precision may be astonished to learn that</p>
+<p>Combining and comparing measurements of turbulent mixing, hydrography, nutrient concentrations and incubations draws from different domain-specific assumptions and conventions.</p>
+<p>Vertical nitrate fluxes are not only difficult to estimate. Once determined, they are subject to considerable uncertainty due to the intermittent nature of turbulence and spatial variation in oceanographic flows caused by tides, varying wind, topography, and water masses with different nutrient contents. Hence comparison with estimates of primary production requires that nitrate fluxes are measured across a variety of forcing scenarios and sufficiently smoothed out.</p>
+<h2 id="regions">Regions</h2>
+<p>To facilitate comparison of our results with previous studies of Pan-Arctic oceanography, we defined several sub-regions of the Arctic Ocean (Fig. 11), largely following <span class="citation" data-cites="codispoti2013synthesis">Codispoti et al. (2013)</span> and <span class="citation" data-cites="peralta-ferriz2015seasonal">Peralta-Ferriz and Woodgate (2015)</span>.</p>
+<figure>
+<img src="../nb_fig/FIGURE_NO3-COMP_regions.png" id="fig:NO3-COMP_regions" alt="" /><figcaption>Figure 11: Regions defined for the purpose of this study.</figcaption>
+</figure>
+<h2 id="nitrate-flux-estimate-in-the-laptev-sea">Nitrate flux estimate in the Laptev Sea</h2>
+<p>(markus)</p>
+<h3 id="data-description">Data description</h3>
+<p>Location, vessel, time, measurements</p>
+<p>Things to think about:</p>
+<ul>
+<li>eps much lower than Lenn et al 2011 (pretty much at shelf break).</li>
+<li>Is this already the inner Laptev shelf, or still outer?</li>
+<li>any observations of tides?</li>
+</ul>
+<figure>
+<img src="../nb_fig/FIGURE_FN-NEW_LAPTEV_map.png" id="fig:FN-NEW_LAPTEV_map" alt="" /><figcaption>Figure 12: Measurement locations in the Laptev Sea.</figcaption>
+</figure>
+<figure>
+<img src="../nb_fig/FIGURE_FN-NEW_LAPTEV_profiles.png" id="fig:FN-NEW_LAPTEV_profiles" alt="" /><figcaption>Figure 13: Vertical profiles of (A) salinity, (B) nitrate concentration and (C) dissipation of turbulent kinetic energy (<span class="math inline">\(\epsilon\)</span>) in the Laptev Sea.</figcaption>
+</figure>
+<h2 id="nitrate-flux-estimate-in-baffin-bay">Nitrate flux estimate in Baffin Bay</h2>
+<p>Three biogeochemical Argo floats overwintered in Baffin Bay from July 2017 to July 2018, described in detail by Randelhoff et al. (2019, in prep.). Integrating the nitrate deficit <span class="math inline">\(\Delta NO3\equiv NO3(60 m) - NO3(z)\)</span> over the upper 60 meters for each station shows that over the course of four months (from November to March), a deficit of 200 mmol m-2 was replenished, approximately equivalent to an upward nitrate flux of 1.66 mmol m-2 d-1.</p>
+<figure>
+<img src="../nb_fig/FIGURE_FN-NEW_BAFFIN.png" id="fig:FN-NEW_BAFFIN" alt="" /><figcaption>Figure 14: Seasonal cycle of nitrate concentrations in Baffin Bay alongside mixed layer depth (A) and the 0-60 m vertically integrated nitrate deficit <span class="math inline">\(\Delta NO3=NO3(60 m) - NO3(z)\)</span> (B).</figcaption>
+</figure>
+<h2 id="tbd-include-young-sound">TBD: Include Young Sound??</h2>
+<h1 id="references" class="unnumbered">References</h1>
+<div id="refs" class="references" role="doc-bibliography">
+<div id="ref-aagaard1989role">
+<p>Aagaard, K., and Carmack, E. C. (1989). The role of sea ice and other fresh water in the Arctic circulation. <em>Journal of Geophysical Research: Oceans</em> 94, 14485–14498. doi:<a href="https://doi.org/10.1029/JC094iC10p14485">10.1029/JC094iC10p14485</a>.</p>
+</div>
+<div id="ref-alkire2010sensor">
+<p>Alkire, M. B., Falkner, K. K., Morison, J., Collier, R. W., Guay, C. K., Desiderio, R. A., Rigor, I. G., and McPhee, M. (2010). Sensor-based profiles of the NO parameter in the central Arctic and southern Canada Basin: New insights regarding the cold halocline. <em>Deep Sea Research Part I: Oceanographic Research Papers</em> 57, 1432–1443. doi:<a href="https://doi.org/10.1016/j.dsr.2010.07.011">10.1016/j.dsr.2010.07.011</a>.</p>
+</div>
+<div id="ref-allen2015unified">
+<p>Allen, T. F. H., and Hoekstra, T. W. (2015). <em>Toward a unified ecology</em>. Second edition. New York: Columbia University Press.</p>
+</div>
+<div id="ref-ambuehl1959bedeutung">
+<p>Ambühl, H. (1959). Die Bedeutung der Strömung als ökologischer Faktor. <em>Schweizerische Zeitschrift für Hydrologie</em> 21, 133. doi:<a href="https://doi.org/10.1007/BF02505455">10.1007/BF02505455</a>.</p>
+</div>
+<div id="ref-bluhm2015tale">
+<p>Bluhm, B. A., Kosobokova, K. N., and Carmack, E. C. (2015). A tale of two basins: An integrated physical and biological perspective of the deep Arctic Ocean. <em>Progress in Oceanography</em> 139, 89–121. doi:<a href="https://doi.org/10.1016/j.pocean.2015.07.011">10.1016/j.pocean.2015.07.011</a>.</p>
+</div>
+<div id="ref-bokehdevelopmentteam2018bokeh">
+<p>Bokeh Development Team (2018). <em>Bokeh: Python library for interactive visualization</em>.</p>
+</div>
+<div id="ref-bouffard2013diapycnal">
+<p>Bouffard, D., and Boegman, L. (2013). A diapycnal diffusivity model for stratified environmental flows. <em>Dynamics of Atmospheres and Oceans</em> 61-62, 14–34. doi:<a href="https://doi.org/10.1016/j.dynatmoce.2013.02.002">10.1016/j.dynatmoce.2013.02.002</a>.</p>
+</div>
+<div id="ref-bourgault2011turbulent">
+<p>Bourgault, D., Hamel, C., Cyr, F., Tremblay, J.-É., Galbraith, P. S., Dumont, D., and Gratton, Y. (2011). Turbulent nitrate fluxes in the Amundsen Gulf during ice-covered conditions. <em>Geophysical Research Letters</em> 38. doi:<a href="https://doi.org/10.1029/2011GL047936">10.1029/2011GL047936</a>.</p>
+</div>
+<div id="ref-carmack2007alphabeta">
+<p>Carmack, E. C. (2007). The alpha/beta ocean distinction: A perspective on freshwater fluxes, convection, nutrients and productivity in high-latitude seas. <em>Deep Sea Research Part II: Topical Studies in Oceanography</em> 54, 2578–2598. doi:<a href="https://doi.org/10.1016/j.dsr2.2007.08.018">10.1016/j.dsr2.2007.08.018</a>.</p>
+</div>
+<div id="ref-carmack2003wind">
+<p>Carmack, E., and Chapman, D. C. (2003). Wind-driven shelf/basin exchange on an Arctic shelf: The joint roles of ice cover extent and shelf-break bathymetry. <em>Geophys. Res. Lett.</em> 30. doi:<a href="https://doi.org/10.1029/2003gl017526">10.1029/2003gl017526</a>.</p>
+</div>
+<div id="ref-carmack2006food">
+<p>Carmack, E., and Wassmann, P. (2006). Food webs and physical - biological coupling on pan-Arctic shelves: Unifying concepts and comprehensive perspectives. <em>Progress in Oceanography</em> 71, 446–477. doi:<a href="https://doi.org/10.1016/j.pocean.2006.10.004">10.1016/j.pocean.2006.10.004</a>.</p>
+</div>
+<div id="ref-carr1995physical">
+<p>Carr, M.-E., Lewis, M. R., Kelley, D., and Jones, B. (1995). A physical estimate of new production in the equatorial Pacific along 150W. <em>Limnology and Oceanography</em> 40, 138–147. doi:<a href="https://doi.org/10.4319/lo.1995.40.1.0138">10.4319/lo.1995.40.1.0138</a>.</p>
+</div>
+<div id="ref-chanona2018variability">
+<p>Chanona, M., Waterman, S., and Gratton, Y. (2018). Variability of Internal Wave-Driven Mixing and Stratification in Canadian Arctic Shelf and Shelf-Slope Waters. <em>Journal of Geophysical Research: Oceans</em> 123, 9178–9195. doi:<a href="https://doi.org/10.1029/2018JC014342">10.1029/2018JC014342</a>.</p>
+</div>
+<div id="ref-codispoti2013synthesis">
+<p>Codispoti, L. A., Kelly, V., Thessen, A., Matrai, P., Suttles, S., Hill, V., Steele, M., and Light, B. (2013). Synthesis of primary production in the Arctic Ocean: III. Nitrate and phosphate based estimates of net community production. <em>Progress in Oceanography</em> 110, 126–150. doi:<a href="https://doi.org/10.1016/j.pocean.2012.11.006">10.1016/j.pocean.2012.11.006</a>.</p>
+</div>
+<div id="ref-cole2018internal">
+<p>Cole, S. T., Toole, J. M., Rainville, L., and Lee, C. M. (2018). Internal waves in the Arctic: Influence of ice concentration, ice roughness, and surface layer stratification. <em>Journal of Geophysical Research: Oceans</em>. doi:<a href="https://doi.org/10.1029/2018JC014096">10.1029/2018JC014096</a>.</p>
+</div>
+<div id="ref-collos1987calculations">
+<p>Collos, Y. (1987). Calculations of 15N uptake rates by phytoplankton assimilating one or several nitrogen sources. <em>International Journal of Radiation Applications and Instrumentation. Part A. Applied Radiation and Isotopes</em> 38, 275–282. doi:<a href="https://doi.org/10.1016/0883-2889(87)90038-4">10.1016/0883-2889(87)90038-4</a>.</p>
+</div>
+<div id="ref-crews2018mesoscale">
+<p>Crews, L., Sundfjord, A., Albretsen, J., and Hattermann, T. (2018). Mesoscale Eddy Activity and Transport in the Atlantic Water Inflow Region North of Svalbard. <em>Journal of Geophysical Research: Oceans</em> 123, 201–215. doi:<a href="https://doi.org/10.1002/2017JC013198">10.1002/2017JC013198</a>.</p>
+</div>
+<div id="ref-cyr2015turbulent">
+<p>Cyr, F., Bourgault, D., Galbraith, P. S., and Gosselin, M. (2015). Turbulent nitrate fluxes in the Lower St. Lawrence Estuary (Canada). <em>J. Geophys. Res. Oceans</em>, n/a–n/a. doi:<a href="https://doi.org/10.1002/2014jc010272">10.1002/2014jc010272</a>.</p>
+</div>
+<div id="ref-dosser2016dynamics">
+<p>Dosser, H. V., and Rainville, L. (2016). Dynamics of the Changing Near-Inertial Internal Wave Field in the Arctic Ocean. <em>Journal of Physical Oceanography</em> 46, 395â415. doi:<a href="https://doi.org/10.1175/jpo-d-15-0056.1">10.1175/jpo-d-15-0056.1</a>.</p>
+</div>
+<div id="ref-dugdale1967uptake">
+<p>Dugdale, R. C., and Goering, J. J. (1967). Uptake of new and regenerated forms of nitrogen in primary productivity. <em>Limnology and Oceanography</em> 12, 196–206. doi:<a href="https://doi.org/10.4319/lo.1967.12.2.0196">10.4319/lo.1967.12.2.0196</a>.</p>
+</div>
+<div id="ref-eppley1979flux">
+<p>Eppley, R., and Peterson, B. (1979). The flux of particulate organic matter to the deep ocean and its relation to planktonic new production. <em>Nature</em> 282, 677–680.</p>
+</div>
+<div id="ref-gargett2008determining">
+<p>Gargett, A., and Garner, T. (2008). Determining Thorpe Scales from Ship-Lowered CTD Density Profiles. <em>Journal of Atmospheric and Oceanic Technology</em> 25, 1657–1670. doi:<a href="https://doi.org/10.1175/2008jtecho541.1">10.1175/2008jtecho541.1</a>.</p>
+</div>
+<div id="ref-gregg2018mixing">
+<p>Gregg, M. C., D’Asaro, E. A., Riley, J. J., and Kunze, E. (2018). Mixing Efficiency in the Ocean. <em>Annual Review of Marine Science</em> 10, 443–473. doi:<a href="https://doi.org/10.1146/annurev-marine-121916-063643">10.1146/annurev-marine-121916-063643</a>.</p>
+</div>
+<div id="ref-guthrie2013revisiting">
+<p>Guthrie, J. D., Morison, J. H., and Fer, I. (2013). Revisiting internal waves and mixing in the Arctic Ocean. <em>Journal of Geophysical Research: Oceans</em> 118, 3966–3977. doi:<a href="https://doi.org/10.1002/jgrc.20294">10.1002/jgrc.20294</a>.</p>
+</div>
+<div id="ref-hales2005irreversible">
+<p>Hales, B. (2005). Irreversible nitrate fluxes due to turbulent mixing in a coastal upwelling system. <em>Journal of Geophysical Research</em> 110, C10S11. doi:<a href="https://doi.org/10.1029/2004JC002685">10.1029/2004JC002685</a>.</p>
+</div>
+<div id="ref-hales2009turbulent">
+<p>Hales, B., Hebert, D., and Marra, J. (2009). Turbulent supply of nutrients to phytoplankton at the New England shelf break front. <em>Journal of Geophysical Research</em> 114, C05010. doi:<a href="https://doi.org/10.1029/2008JC005011">10.1029/2008JC005011</a>.</p>
+</div>
+<div id="ref-hamilton1989vertical">
+<p>Hamilton, J. M., Lewis, M. R., and Ruddick, B. R. (1989). Vertical fluxes of nitrate associated with salt fingers in the world’s oceans. <em>Journal of Geophysical Research: Oceans</em> 94, 2137–2145. doi:<a href="https://doi.org/10.1029/JC094iC02p02137">10.1029/JC094iC02p02137</a>.</p>
+</div>
+<div id="ref-hattermann2016eddy">
+<p>Hattermann, T., Isachsen, P. E., von Appen, W.-J., Albretsen, J., and Sundfjord, A. (2016). Eddy-driven recirculation of Atlantic Water in Fram Strait. <em>Geophysical Research Letters</em> 43, 3406–3414. doi:<a href="https://doi.org/10.1002/2016gl068323">10.1002/2016gl068323</a>.</p>
+</div>
+<div id="ref-horne1996turbulence">
+<p>Horne, E. P. W., Loder, J. W., Naime, C. E., and Oakey, N. S. (1996). Turbulence dissipation rates and nitrate supply in the upper water column on Georges Bank. <em>Deep Sea Research Part II: Topical Studies in Oceanography</em> 43, 1683–1712. doi:<a href="https://doi.org/10.1016/S0967-0645(96)00037-9">10.1016/S0967-0645(96)00037-9</a>.</p>
+</div>
+<div id="ref-ivanov2016arctic">
+<p>Ivanov, V., Alexeev, V., Koldunov, N. V., Repina, I., Sandø, A. B., Smedsrud, L. H., and Smirnov, A. (2016). Arctic Ocean heat impact on regional ice decay - a suggested positive feedback. <em>Journal of Physical Oceanography</em> 46, 1437–1456. doi:<a href="https://doi.org/10.1175/jpo-d-15-0144.1">10.1175/jpo-d-15-0144.1</a>.</p>
+</div>
+<div id="ref-jenkins1988nitrate">
+<p>Jenkins, W. J. (1988). Nitrate flux into the euphotic zone near Bermuda. <em>Nature</em> 331, 521–523. doi:<a href="https://doi.org/10.1038/331521a0">10.1038/331521a0</a>.</p>
+</div>
+<div id="ref-johnson2010nitrate">
+<p>Johnson, K. S., Riser, S. C., and Karl, D. M. (2010). Nitrate supply from deep to near-surface waters of the North Pacific subtropical gyre. <em>Nature</em> 465, 1062–1065. doi:<a href="https://doi.org/10.1038/nature09170">10.1038/nature09170</a>.</p>
+</div>
+<div id="ref-kaneko2013observations">
+<p>Kaneko, H., Yasuda, I., Komatsu, K., and Itoh, S. (2013). Observations of vertical turbulent nitrate flux across the Kuroshio. <em>Geophysical Research Letters</em> 40, 3123–3127. doi:<a href="https://doi.org/10.1002/grl.50613">10.1002/grl.50613</a>.</p>
+</div>
+<div id="ref-kampf2016upwelling">
+<p>Kämpf, J., and Chapman, P. (2016). <em>Upwelling Systems of the World</em>. Springer.</p>
+</div>
+<div id="ref-law2003vertical">
+<p>Law, C. S. (2003). Vertical eddy diffusion and nutrient supply to the surface mixed layer of the Antarctic Circumpolar Current. <em>Journal of Geophysical Research</em> 108, 3272. doi:<a href="https://doi.org/10.1029/2002JC001604">10.1029/2002JC001604</a>.</p>
+</div>
+<div id="ref-law2001lagrangian">
+<p>Law, C. S., Martin, A. P., Liddicoat, M. I., Watson, A. J., Richards, K. J., and Woodward, E. M. S. (2001). A Lagrangian SF6 tracer study of an anticyclonic eddy in the North Atlantic: Patch evolution, vertical mixing and nutrient supply to the mixed layer. <em>Deep Sea Research Part II: Topical Studies in Oceanography</em> 48, 705–724. doi:<a href="https://doi.org/10.1016/S0967-0645(00)00112-0">10.1016/S0967-0645(00)00112-0</a>.</p>
+</div>
+<div id="ref-lewis1986vertical">
+<p>Lewis, M. R., Hebert, D., Harrison, W. G., Platt, T., and Oakey, N. S. (1986). Vertical Nitrate Fluxes in the Oligotrophic Ocean. <em>Science</em> 234, 870–873. doi:<a href="https://doi.org/10.1126/science.234.4778.870">10.1126/science.234.4778.870</a>.</p>
+</div>
+<div id="ref-li2009smallest">
+<p>Li, W. K. W., McLaughlin, F. A., Lovejoy, C., and Carmack, E. C. (2009). Smallest Algae Thrive As the Arctic Ocean Freshens. <em>Science</em> 326, 539–539. doi:<a href="https://doi.org/10.1126/science.1179798">10.1126/science.1179798</a>.</p>
+</div>
+<div id="ref-lincoln2016wind">
+<p>Lincoln, B. J., Rippeth, T. P., Lenn, Y.-D., Timmermans, M. L., Williams, W. J., and Bacon, S. (2016). Wind-driven mixing at intermediate depths in an ice-free Arctic Ocean. <em>Geophysical Research Letters</em> 43, 9749–9756. doi:<a href="https://doi.org/10.1002/2016GL070454">10.1002/2016GL070454</a>.</p>
+</div>
+<div id="ref-lueck2002oceanic">
+<p>Lueck, R. G., Wolk, F., and Yamazaki, H. (2002). Oceanic Velocity Microstructure Measurements in the 20th Century. <em>Journal of Oceanography</em> 58, 153–174. doi:<a href="https://doi.org/10.1023/A:1015837020019">10.1023/A:1015837020019</a>.</p>
+</div>
+<div id="ref-margalef1978life">
+<p>Margalef, R. (1978). Life-forms of phytoplankton as survival alternatives in an unstable environment. <em>Oceanologica acta</em> 1, 493–509.</p>
+</div>
+<div id="ref-martin2010supply">
+<p>Martin, A. P., Lucas, M. I., Painter, S. C., Pidcock, R., Prandke, H., Prandke, H., and Stinchcombe, M. C. (2010). The supply of nutrients due to vertical turbulent mixing: A study at the Porcupine Abyssal Plain study site in the northeast Atlantic. <em>Deep Sea Research Part II: Topical Studies in Oceanography</em> 57, 1293–1302. doi:<a href="https://doi.org/10.1016/j.dsr2.2010.01.006">10.1016/j.dsr2.2010.01.006</a>.</p>
+</div>
+<div id="ref-martin2003estimates">
+<p>Martin, A. P., and Pondaven, P. (2003). On estimates for the vertical nitrate flux due to eddy pumping. <em>Journal of Geophysical Research: Oceans</em> 108, n/a–n/a. doi:<a href="https://doi.org/10.1029/2003JC001841">10.1029/2003JC001841</a>.</p>
+</div>
+<div id="ref-martin2001mechanisms">
+<p>Martin, A. P., and Richards, K. J. (2001). Mechanisms for vertical nutrient transport within a North Atlantic mesoscale eddy. <em>Deep Sea Research Part II: Topical Studies in Oceanography</em> 48, 757–773. doi:<a href="https://doi.org/10.1016/S0967-0645(00)00096-5">10.1016/S0967-0645(00)00096-5</a>.</p>
+</div>
+<div id="ref-martin2016impact">
+<p>Martin, T., Tsamados, M., Schroeder, D., and Feltham, D. L. (2016). The impact of variable sea ice roughness on changes in Arctic Ocean surface stress: A model study. <em>Journal of Geophysical Research: Oceans</em> 121, 1931–1952. doi:<a href="https://doi.org/10.1002/2015JC011186">10.1002/2015JC011186</a>.</p>
+</div>
+<div id="ref-mcphee2008air">
+<p>McPhee, M. (2008). <em>Air-ice-ocean Interaction: Turbulent Ocean Boundary Layer Exchange Processes</em>. Springer New York doi:<a href="https://doi.org/10.1007/978-0-387-78335-2">10.1007/978-0-387-78335-2</a>.</p>
+</div>
+<div id="ref-mcphee1992turbulent">
+<p>McPhee, M. G. (1992). Turbulent heat flux in the upper ocean under sea ice. <em>Journal of Geophysical Research: Oceans</em> 97, 5365–5379. doi:<a href="https://doi.org/10.1029/92JC00239">10.1029/92JC00239</a>.</p>
+</div>
+<div id="ref-moore2013processes">
+<p>Moore, C. M., Mills, M. M., Arrigo, K. R., Berman-Frank, I., Bopp, L., Boyd, P. W., Galbraith, E. D., Geider, R. J., Guieu, C., Jaccard, S. L., et al. (2013). Processes and patterns of oceanic nutrient limitation. <em>Nature Geoscience</em> 6, 701–710. doi:<a href="https://doi.org/10.1038/ngeo1765">10.1038/ngeo1765</a>.</p>
+</div>
+<div id="ref-moran2003does">
+<p>Moran, S. B., Weinstein, S. E., Edmonds, H. N., Smith, J. N., Kelly, R. P., Pilson, M. E. Q., and Harrison, W. G. (2003). Does 234Th/238U disequilibrium provide an accurate record of the export flux of particulate organic carbon from the upper ocean? <em>Limnology and Oceanography</em> 48, 1018–1029. doi:<a href="https://doi.org/10.4319/lo.2003.48.3.1018">10.4319/lo.2003.48.3.1018</a>.</p>
+</div>
+<div id="ref-nishino2018biogeochemical">
+<p>Nishino, S., Kawaguchi, Y., Fujiwara, A., Shiozaki, T., Aoyama, M., Harada, N., and Kikuchi, T. (2018). Biogeochemical Anatomy of a Cyclonic Warm-Core Eddy in the Arctic Ocean. <em>Geophysical Research Letters</em> 0. doi:<a href="https://doi.org/10.1029/2018GL079659">10.1029/2018GL079659</a>.</p>
+</div>
+<div id="ref-nishino2015nutrient">
+<p>Nishino, S., Kawaguchi, Y., Inoue, J., Hirawake, T., Fujiwara, A., Futsuki, R., Onodera, J., and Aoyama, M. (2015). Nutrient supply and biological response to wind-induced mixing, inertial motion, internal waves, and currents in the northern Chukchi Sea. <em>Journal of Geophysical Research: Oceans</em> 120, 1975–1992. doi:<a href="https://doi.org/10.1002/2014jc010407">10.1002/2014jc010407</a>.</p>
+</div>
+<div id="ref-nummelin2015consequences">
+<p>Nummelin, A., Ilicak, M., Li, C., and Smedsrud, L. H. (2015). Consequences of future increased Arctic runoff on Arctic Ocean stratification, circulation, and sea ice cover. <em>Journal of Geophysical Research: Oceans</em>. doi:<a href="https://doi.org/10.1002/2015jc011156">10.1002/2015jc011156</a>.</p>
+</div>
+<div id="ref-onarheim2018seasonal">
+<p>Onarheim, I. H., Eldevik, T., Smedsrud, L. H., and Stroeve, J. C. (2018). Seasonal and Regional Manifestation of Arctic Sea Ice Loss. <em>Journal of Climate</em> 31, 4917–4932. doi:<a href="https://doi.org/10.1175/JCLI-D-17-0427.1">10.1175/JCLI-D-17-0427.1</a>.</p>
+</div>
+<div id="ref-osborn1980estimates">
+<p>Osborn, T. R. (1980). Estimates of the Local Rate of Vertical Diffusion from Dissipation Measurements. <em>J. Phys. Oceanogr.</em> 10, 83–89. doi:<a href="https://doi.org/10.1175/1520-0485(1980)010%3C0083:EOTLRO%3E2.0.CO;2">10.1175/1520-0485(1980)010&lt;0083:EOTLRO&gt;2.0.CO;2</a>.</p>
+</div>
+<div id="ref-paulsen2018asynchronous">
+<p>Paulsen, M. L., Seuthe, L., Reigstad, M., Larsen, A., Cape, M. R., and Vernet, M. (2018). Asynchronous Accumulation of Organic Carbon and Nitrogen in the Atlantic Gateway to the Arctic Ocean. <em>Frontiers in Marine Science</em> 5. doi:<a href="https://doi.org/10.3389/fmars.2018.00416">10.3389/fmars.2018.00416</a>.</p>
+</div>
+<div id="ref-peralta-ferriz2015seasonal">
+<p>Peralta-Ferriz, C., and Woodgate, R. A. (2015). Seasonal and interannual variability of pan-Arctic surface mixed layer properties from 1979 to 2012 from hydrographic data, and the dominance of stratification for multiyear mixed layer depth shoaling. <em>Progress in Oceanography</em> 134, 19–53. doi:<a href="https://doi.org/http://dx.doi.org/10.1016/j.pocean.2014.12.005">http://dx.doi.org/10.1016/j.pocean.2014.12.005</a>.</p>
+</div>
+<div id="ref-planas1999nitrate">
+<p>Planas, D., Agustí, S., Duarte, C. M., Granata, T. C., and Merino, M. (1999). Nitrate uptake and diffusive nitrate supply in the Central Atlantic. <em>Limnology and Oceanography</em> 44, 116–126. doi:<a href="https://doi.org/10.4319/lo.1999.44.1.0116">10.4319/lo.1999.44.1.0116</a>.</p>
+</div>
+<div id="ref-polyakov2017greater">
+<p>Polyakov, I. V., Pnyushkov, A. V., Alkire, M. B., Ashik, I. M., Baumann, T. M., Carmack, E. C., Goszczko, I., Guthrie, J., Ivanov, V. V., Kanzow, T., et al. (2017). Greater role for Atlantic inflows on sea-ice loss in the Eurasian Basin of the Arctic Ocean. <em>Science</em> 356, 285–291. doi:<a href="https://doi.org/10.1126/science.aai8204">10.1126/science.aai8204</a>.</p>
+</div>
+<div id="ref-polzin2014finescale">
+<p>Polzin, K. L., Naveira Garabato, A. C., Huussen, T. N., Sloyan, B. M., and Waterman, S. (2014). Finescale parameterizations of turbulent dissipation. <em>J. Geophys. Res. Oceans</em> 119, 1383–1419. doi:<a href="https://doi.org/10.1002/2013jc008979">10.1002/2013jc008979</a>.</p>
+</div>
+<div id="ref-price1986diurnal">
+<p>Price, J. F., and Weller, R. A. (1986). Diurnal Cycling: Observations and Models of the Upper Ocean Response to Diurnal Heating, Cooling and Wind Mixing. <em>Journal of Geophysical Research: Oceans</em> 91, 8411–8427.</p>
+</div>
+<div id="ref-rainville2009observations">
+<p>Rainville, L., and Woodgate, R. A. (2009). Observations of internal wave generation in the seasonally ice-free Arctic. <em>Geophysical Research Letters</em> 36. doi:<a href="https://doi.org/10.1029/2009GL041291">10.1029/2009GL041291</a>.</p>
+</div>
+<div id="ref-randelhoff2017turbulent">
+<p>Randelhoff, A., Fer, I., and Sundfjord, A. (2017). Turbulent Upper-Ocean Mixing Affected by Meltwater Layers during Arctic Summer. <em>Journal of Physical Oceanography</em> 47, 835–853. doi:<a href="https://doi.org/10.1175/JPO-D-16-0200.1">10.1175/JPO-D-16-0200.1</a>.</p>
+</div>
+<div id="ref-randelhoff2016vertical">
+<p>Randelhoff, A., Fer, I., Sundfjord, A., Tremblay, J.-É., and Reigstad, M. (2016). Vertical fluxes of nitrate in the seasonal nitracline of the Atlantic sector of the Arctic Ocean. <em>Journal of Geophysical Research: Oceans</em> 121, 5282–5295. doi:<a href="https://doi.org/10.1002/2016JC011779">10.1002/2016JC011779</a>.</p>
+</div>
+<div id="ref-randelhoff2016regional">
+<p>Randelhoff, A., and Guthrie, J. D. (2016). Regional Patterns in Current and Future Export Production in the Central Arctic Ocean Quantified from Nitrate Fluxes. <em>Geophysical Research Letters</em>. doi:<a href="https://doi.org/10.1002/2016gl070252">10.1002/2016gl070252</a>.</p>
+</div>
+<div id="ref-randelhoff2018seasonality">
+<p>Randelhoff, A., Reigstad, M., Chierici, M., Sundfjord, A., Ivanov, V., Cape, M., Vernet, M., Tremblay, J.-É., Bratbak, G., and Kristiansen, S. (2018). Seasonality of the Physical and Biogeochemical Hydrography in the Inflow to the Arctic Ocean Through Fram Strait. <em>Frontiers in Marine Science</em> 5. doi:<a href="https://doi.org/10.3389/fmars.2018.00224">10.3389/fmars.2018.00224</a>.</p>
+</div>
+<div id="ref-randelhoff2018short">
+<p>Randelhoff, A., and Sundfjord, A. (2018). Short commentary on marine productivity at Arctic shelf breaks: Upwelling, advection and vertical mixing. <em>Ocean Science</em> 14, 293–300. doi:<a href="https://doi.org/10.5194/os-14-293-2018">10.5194/os-14-293-2018</a>.</p>
+</div>
+<div id="ref-randelhoff2015seasonal">
+<p>Randelhoff, A., Sundfjord, A., and Reigstad, M. (2015). Seasonal variability and fluxes of nitrate in the surface waters over the Arctic shelf slope. <em>Geophysical Research Letters</em> 42, 3442–3449. doi:<a href="https://doi.org/10.1002/2015gl063655">10.1002/2015gl063655</a>.</p>
+</div>
+<div id="ref-redfield1963influence">
+<p>Redfield, A. C., Ketchum, B. H., and Richards, F. A. (1963). “The influence of organisms on the composition of sea-water,” in <em>The Sea</em>, ed. M. N. Hill (Academic Press), 26–77.</p>
+</div>
+<div id="ref-rees2001carbon">
+<p>Rees, A. P., Joint, I., Woodward, E. M. S., and Donald, K. M. (2001). Carbon, nitrogen and phosphorus budgets within a mesoscale eddy: Comparison of mass balance with in vitro determinations. <em>Deep Sea Research Part II: Topical Studies in Oceanography</em> 48, 859–872. doi:<a href="https://doi.org/10.1016/S0967-0645(00)00101-6">10.1016/S0967-0645(00)00101-6</a>.</p>
+</div>
+<div id="ref-rippeth2009diapcynal">
+<p>Rippeth, T. P., Wiles, P., Palmer, M. R., Sharples, J., and Tweddle, J. (2009). The diapcynal nutrient flux and shear-induced diapcynal mixing in the seasonally stratified western Irish Sea. <em>Continental Shelf Research</em> 29, 1580–1587. doi:<a href="https://doi.org/10.1016/j.csr.2009.04.009">10.1016/j.csr.2009.04.009</a>.</p>
+</div>
+<div id="ref-sakshaug2004primary">
+<p>Sakshaug, E. (2004). “Primary and Secondary Production in the Arctic Seas,” in <em>The Organic Carbon Cycle in the Arctic Ocean</em>, eds. R. Stein and R. W. Macdonald (Springer Berlin Heidelberg), 57–81. doi:<a href="https://doi.org/10.1007/978-3-642-18912-8_3">10.1007/978-3-642-18912-8_3</a>.</p>
+</div>
+<div id="ref-schafstall2010tidalinduced">
+<p>Schafstall, J., Dengler, M., Brandt, P., and Bange, H. (2010). Tidal-induced mixing and diapycnal nutrient fluxes in the Mauritanian upwelling region. <em>Journal of Geophysical Research</em> 115, C10014. doi:<a href="https://doi.org/10.1029/2009JC005940">10.1029/2009JC005940</a>.</p>
+</div>
+<div id="ref-sharples2001internal">
+<p>Sharples, J., Moore, C. M., and Abraham, E. R. (2001). Internal tide dissipation, mixing, and vertical nitrate flux at the shelf edge of NE New Zealand. <em>Journal of Geophysical Research: Oceans</em> 106, 14069–14081. doi:<a href="https://doi.org/10.1029/2000JC000604">10.1029/2000JC000604</a>.</p>
+</div>
+<div id="ref-sharples2007springneap">
+<p>Sharples, J., Tweddle, J. F., Green, J. A. M., Palmer, M. R., Kim, Y.-N., Hickman, A. E., Holligan, P. M., Moore, C. M., Rippeth, T. P., Simpson, J. H., et al. (2007). Spring-neap modulation of internal tide mixing and vertical nitrate fluxes at a shelf edge in summer. <em>Limnology and Oceanography</em> 52, 1735–1747. doi:<a href="https://doi.org/10.4319/lo.2007.52.5.1735">10.4319/lo.2007.52.5.1735</a>.</p>
+</div>
+<div id="ref-shih2005parameterization">
+<p>Shih, L. H., Koseff, J. R., Ivey, G. N., and Ferziger, J. H. (2005). Parameterization of turbulent fluxes and scales using homogeneous sheared stably stratified turbulence simulations. <em>Journal of Fluid Mechanics</em> 525, 193–214. doi:<a href="https://doi.org/10.1017/S0022112004002587">10.1017/S0022112004002587</a>.</p>
+</div>
+<div id="ref-shiozaki2011imbalance">
+<p>Shiozaki, T., Furuya, K., Kurotori, H., Kodama, T., Takeda, S., Endoh, T., Yoshikawa, Y., Ishizaka, J., and Matsuno, T. (2011). Imbalance between vertical nitrate flux and nitrate assimilation on a continental shelf: Implications of nitrification. <em>Journal of Geophysical Research: Oceans</em> 116. doi:<a href="https://doi.org/10.1029/2010JC006934">10.1029/2010JC006934</a>.</p>
+</div>
+<div id="ref-stein2004organic">
+<p>Stein, R., and MacDonald, R. W. eds. (2004). <em>The Organic Carbon Cycle in the Arctic Ocean</em>. Springer Science + Business Media doi:<a href="https://doi.org/10.1007/978-3-642-18912-8">10.1007/978-3-642-18912-8</a>.</p>
+</div>
+<div id="ref-stevens2015holoviews">
+<p>Stevens, J.-L. R., Rudiger, P., and Bednar, J. A. (2015). HoloViews: Building Complex Visualizations Easily for Reproducible Science. in <em>Proceedings of the 14th Python in Science Conference</em>.</p>
+</div>
+<div id="ref-sundfjord2007observations">
+<p>Sundfjord, A., Fer, I., Kasajima, Y., and Svendsen, H. (2007). Observations of turbulent mixing and hydrography in the marginal ice zone of the Barents Sea. <em>Journal of Geophysical Research: Oceans</em> 112. doi:<a href="https://doi.org/10.1029/2006JC003524">10.1029/2006JC003524</a>.</p>
+</div>
+<div id="ref-tank2012processing">
+<p>Tank, S. E., Manizza, M., Holmes, R. M., McClelland, J. W., and Peterson, B. J. (2012). The Processing and Impact of Dissolved Riverine Nitrogen in the Arctic Ocean. <em>Estuaries and Coasts</em> 35, 401–415. doi:<a href="https://doi.org/10.1007/s12237-011-9417-3">10.1007/s12237-011-9417-3</a>.</p>
+</div>
+<div id="ref-torres-valdes2013export">
+<p>Torres-Valdés, S., Tsubouchi, T., Bacon, S., Naveira-Garabato, A. C., Sanders, R., McLaughlin, F. A., Petrie, B., Kattner, G., Azetsu-Scott, K., and Whitledge, T. E. (2013). Export of nutrients from the Arctic Ocean. <em>J. Geophys. Res. Oceans</em> 118, 1625–1644. doi:<a href="https://doi.org/10.1002/jgrc.20063">10.1002/jgrc.20063</a>.</p>
+</div>
+<div id="ref-tremblay2015global">
+<p>Tremblay, J.-É., Anderson, L. G., Matrai, P., Coupel, P., Bélanger, S., Michel, C., and Reigstad, M. (2015). Global and regional drivers of nutrient supply, primary production and CO2 drawdown in the changing Arctic Ocean. <em>Progress in Oceanography</em> 139, 171–196. doi:<a href="https://doi.org/10.1016/j.pocean.2015.08.009">10.1016/j.pocean.2015.08.009</a>.</p>
+</div>
+<div id="ref-valiela2015marine">
+<p>Valiela, I. (2015). <em>Marine ecological processes</em>. 3rd ed. Springer-Verlag New York.</p>
+</div>
+<div id="ref-vancoppenolle2013future">
+<p>Vancoppenolle, M., Bopp, L., Madec, G., Dunne, J., Ilyina, T., Halloran, P. R., and Steiner, N. (2013). Future Arctic Ocean primary productivity from CMIP5 simulations: Uncertain outcome, but consistent mechanisms. <em>Global Biogeochemical Cycles</em> 27, 605–619. doi:<a href="https://doi.org/10.1002/gbc.20055">10.1002/gbc.20055</a>.</p>
+</div>
+<div id="ref-wassmann2006modelling">
+<p>Wassmann, P., Slagstad, D., Riser, C. W., and Reigstad, M. (2006). Modelling the ecosystem dynamics of the Barents Sea including the marginal ice zone. <em>Journal of Marine Systems</em> 59, 1–24. doi:<a href="https://doi.org/10.1016/j.jmarsys.2005.05.006">10.1016/j.jmarsys.2005.05.006</a>.</p>
+</div>
+<div id="ref-watanabe2014enhanced">
+<p>Watanabe, E., Onodera, J., Harada, N., Honda, M. C., Kimoto, K., Kikuchi, T., Nishino, S., Matsuno, K., Yamaguchi, A., Ishida, A., et al. (2014). Enhanced role of eddies in the Arctic marine biological pump. <em>Nature Communications</em> 5. doi:<a href="https://doi.org/10.1038/ncomms4950">10.1038/ncomms4950</a>.</p>
+</div>
+<div id="ref-wiedmann2015potential">
+<p>Wiedmann, I. (2015). Potential drivers of the downward carbon and particle flux in Arctic marine ecosystems under contrasting hydrographical and ecological situations.</p>
+</div>
+<div id="ref-wiedmann2017upward">
+<p>Wiedmann, I., Tremblay, J.-É., Sundfjord, A., and Reigstad, M. (2017). Upward nitrate flux and downward particulate organic carbon flux under contrasting situations of stratification and turbulent mixing in an Arctic shelf sea. <em>Elem Sci Anth</em> 5.</p>
+</div>
+<div id="ref-zeitzschel1978new">
+<p>Zeitzschel, B., Diekmann, P., and Uhlmann, L. (1978). A new multisample sediment trap. <em>Marine Biology</em> 45, 285–288. doi:<a href="https://doi.org/10.1007/BF00391814">10.1007/BF00391814</a>.</p>
+</div>
+</div>
+</body>
+</html>
