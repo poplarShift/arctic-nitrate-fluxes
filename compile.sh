@@ -16,11 +16,12 @@ bib='bibliography.bib'
 
 # sed -i '' -e 's/NO3/NO₃/g' $file.md
 
-# jupyter nbconvert --to notebook --output make_paper_interactive.ipynb --execute make_paper_interactive.ipynb
-# pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl markdown_template/frontiers.csl  --self-contained --resource-path=.:../nb_fig/ -o ${file}_interactive.html ${file}_interactive.md
+# rm $bib
+# ln -s ~/Documents/library/_MASTER_BIBLIOGRAPHY.bib $bib
 
-rm $bib
-ln -s ~/Documents/library/_MASTER_BIBLIOGRAPHY.bib $bib
+jupyter nbconvert --to notebook --output make_paper_interactive.ipynb --execute make_paper_interactive.ipynb
+pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl markdown_template/frontiers.csl  --self-contained --resource-path=.:../nb_fig/ -o ${file}_interactive.html ${file}_interactive.md
+rm ${file}_interactive.md
 
 pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl markdown_template/frontiers.csl --mathjax -s  -o ${file}.html $file.md
 
@@ -43,8 +44,6 @@ source deactivate
 # pushd markdown_template
 #
 # # pandoc +RTS -K512m -RTS --to latex --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash  --template template.tex --highlight-style tango --pdf-engine pdflatex --filter pandoc-citeproc --output paper.tex ../paper.md
-#
-# pdflatex paper.tex
 #
 # popd
 

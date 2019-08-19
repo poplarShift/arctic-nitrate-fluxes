@@ -1,4 +1,35 @@
-*
-!.gitignore
-!README.md
-!draft.md
+.DS_Store
+.ipynb_checkpoints
+__pycache__
+
+todo.md
+tmp
+backup
+debug.py
+*.xlsx
+# pickled pandas data, temporary
+*.pandas
+
+nb/backup.ipynb
+nb/notes.ipynb
+
+data/laptev
+data/no3-compilation/database.csv
+# ?
+data/regions
+data/fn-compilation-database
+
+
+paper/frontiers_csl
+paper/markdown_template
+paper/bibliography.bib
+paper/publish
+paper/latex
+ghostdriver.log
+paper/Frontiers_abstract_habitatpaper.docx
+paper/paper_editing.ipynb
+
+# paper/
+
+# for now only:
+nb_fig
