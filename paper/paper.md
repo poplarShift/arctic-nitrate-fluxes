@@ -222,7 +222,7 @@ TBD:
 
 # Supplemental Material
 
-The supplemental material, accessible at [https://XXX], contains:
+The supplemental material, accessible at [https://github.com/poplarShift/arctic-nitrate-fluxes](https://github.com/poplarShift/arctic-nitrate-fluxes), contains:
 
 - The python code necessary to reproduce all analyses and figures, licensed under GNU GPL3.
 - The data, as plotted in all figures, in machine-readable formats.
