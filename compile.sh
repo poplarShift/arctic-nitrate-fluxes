@@ -20,7 +20,7 @@ bib='bibliography.bib'
 # ln -s ~/Documents/library/_MASTER_BIBLIOGRAPHY.bib $bib
 
 jupyter nbconvert --to notebook --output make_paper_interactive.ipynb --execute make_paper_interactive.ipynb
-pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl markdown_template/frontiers.csl  --self-contained --resource-path=.:../nb_fig/ -o ${file}_interactive.html ${file}_interactive.md
+pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl markdown_template/frontiers.csl  --self-contained --resource-path=.:../nb_fig/:../fig -o ${file}_interactive.html ${file}_interactive.md
 rm ${file}_interactive.md
 
 pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl markdown_template/frontiers.csl --mathjax -s  -o ${file}.html $file.md
