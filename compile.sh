@@ -23,7 +23,7 @@ jupyter nbconvert --to notebook --output make_paper_interactive.ipynb --execute 
 pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl markdown_template/frontiers.csl  --self-contained --resource-path=.:../nb_fig/:../fig -o ${file}_interactive.html ${file}_interactive.md
 rm ${file}_interactive.md
 
-pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl markdown_template/frontiers.csl --mathjax -s  -o ${file}.html $file.md
+pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl markdown_template/frontiers.csl --mathjax -s  --self-contained --resource-path=.:../nb_fig/:../fig -o ${file}.html $file.md
 
 # # export bibliography to local file
 # pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl markdown_template/frontiers.csl --mathjax -s  -o ${file}.tex $file.md
