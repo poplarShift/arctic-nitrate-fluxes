@@ -5,9 +5,9 @@ source activate nitrateflux
 pushd nb
 for file in `ls [A,B,C]*.ipynb`
 do
-  fname=`echo $file | cut -d'.' -f 1 | cut -d'/' -f 2`
+  fname=`echo $file | cut -d'.' -f 1`
   # render to html
-  jupyter nbconvert --to html --output=../nb_html/$fname $fname.ipynb
+  jupyter nbconvert --to html --output=../nb_html/$fname $fname
   # clear outputs
   jupyter nbconvert --ClearOutputPreprocessor.enabled=True --to notebook --output=$fname $fname
 done
