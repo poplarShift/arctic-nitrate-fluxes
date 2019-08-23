@@ -1,0 +1,387 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with svg_stack (http://github.com/astraw/svg_stack) -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1050.0" height="300.0">
+  <defs>
+    <clipPath id="id0:drPFVdHDGdvo">
+      <path fill="none" stroke="none" d=" M 85 10 L 790 10 L 790 267 L 85 267 L 85 10 Z"/>
+    </clipPath>
+    <clipPath id="id0:QmQLmUPkpwMP">
+      <path fill="none" stroke="none" d=" M 85 10 L 790 10 L 790 267 L 85 267 L 85 10 Z"/>
+    </clipPath>
+    <clipPath id="id0:RwRKNiqwKEhu">
+      <path fill="none" stroke="none" d=" M 85 10 L 790 10 L 790 267 L 85 267 L 85 10 Z"/>
+    </clipPath>
+    <clipPath id="id0:ghbqyADHOdMq">
+      <path fill="none" stroke="none" d=" M 85 10 L 790 10 L 790 267 L 85 267 L 85 10 Z"/>
+    </clipPath>
+    <clipPath id="id0:eEIztQtmaTnP">
+      <path fill="none" stroke="none" d=" M 85 10 L 790 10 L 790 267 L 85 267 L 85 10 Z"/>
+    </clipPath>
+    <clipPath id="id0:TygyZnKbbtym">
+      <path fill="none" stroke="none" d=" M 85 10 L 790 10 L 790 267 L 85 267 L 85 10 Z"/>
+    </clipPath>
+    <clipPath id="id0:sFUQkGJPFPVt">
+      <path fill="none" stroke="none" d=" M 85 10 L 790 10 L 790 267 L 85 267 L 85 10 Z"/>
+    </clipPath>
+    <clipPath id="id0:nttLPiKVCHpC">
+      <path fill="none" stroke="none" d=" M 85 10 L 790 10 L 790 267 L 85 267 L 85 10 Z"/>
+    </clipPath>
+    <clipPath id="id0:gvWrqnRPaJwW">
+      <path fill="none" stroke="none" d=" M 85 10 L 790 10 L 790 267 L 85 267 L 85 10 Z"/>
+    </clipPath>
+    <clipPath id="id0:GZhQXFAGmgHO">
+      <path fill="none" stroke="none" d=" M 85 10 L 790 10 L 790 267 L 85 267 L 85 10 Z"/>
+    </clipPath>
+    <clipPath id="id0:JNBLabLTgJGK">
+      <path fill="none" stroke="none" d=" M 85 10 L 790 10 L 790 267 L 85 267 L 85 10 Z"/>
+    </clipPath>
+    <clipPath id="id0:hxcMGcvAQwhM">
+      <path fill="none" stroke="none" d=" M 85 10 L 790 10 L 790 267 L 85 267 L 85 10 Z"/>
+    </clipPath>
+    <clipPath id="id1:VbFKsFbSTspy">
+      <path fill="none" stroke="none" d=" M 10 10 L 240 10 L 240 190 L 10 190 L 10 10 Z"/>
+    </clipPath>
+    <clipPath id="id1:PcJVPGvGrKBy">
+      <path fill="none" stroke="none" d=" M 10 10 L 240 10 L 240 190 L 10 190 L 10 10 Z"/>
+    </clipPath>
+    <clipPath id="id1:KChCOleoFgNk">
+      <path fill="none" stroke="none" d=" M 10 10 L 240 10 L 240 190 L 10 190 L 10 10 Z"/>
+    </clipPath>
+    <clipPath id="id1:sUwZNETfHtNp">
+      <path fill="none" stroke="none" d=" M 10 10 L 240 10 L 240 190 L 10 190 L 10 10 Z"/>
+    </clipPath>
+    <clipPath id="id1:oDeXhFHWmVmh">
+      <path fill="none" stroke="none" d=" M 10 10 L 240 10 L 240 190 L 10 190 L 10 10 Z"/>
+    </clipPath>
+    <clipPath id="id1:RPfbCeprneLU">
+      <path fill="none" stroke="none" d=" M 10 10 L 240 10 L 240 190 L 10 190 L 10 10 Z"/>
+    </clipPath>
+    <clipPath id="id1:cHRLHQmyHbZB">
+      <path fill="none" stroke="none" d=" M 10 10 L 240 10 L 240 190 L 10 190 L 10 10 Z"/>
+    </clipPath>
+    <clipPath id="id1:kNWcCyAdXAal">
+      <path fill="none" stroke="none" d=" M 10 10 L 240 10 L 240 190 L 10 190 L 10 10 Z"/>
+    </clipPath>
+    <clipPath id="id1:lloMxJKeTZsl">
+      <path fill="none" stroke="none" d=" M 10 10 L 240 10 L 240 190 L 10 190 L 10 10 Z"/>
+    </clipPath>
+    <clipPath id="id1:iUBKgPvgrwse">
+      <path fill="none" stroke="none" d=" M 10 10 L 240 10 L 240 190 L 10 190 L 10 10 Z"/>
+    </clipPath>
+  </defs>
+  <g id="id0:id0" transform="translate(0.0,0.0)">
+    <g>
+      <g transform="scale(1,1) translate(0.5,0.5)">
+        <rect fill="#FFFFFF" stroke="none" x="0" y="0" width="800" height="300"/>
+        <rect fill="#ffffff" stroke="none" x="0" y="0" width="800" height="300"/>
+        <rect fill="#FFFFFF" stroke="none" x="85" y="10" width="705" height="257"/>
+        <rect fill="#ffffff" stroke="none" x="85" y="10" width="705" height="257"/>
+        <g clip-path="url(#id0:drPFVdHDGdvo)">
+          <g>
+            <g/>
+          </g>
+        </g>
+        <g clip-path="url(#id0:QmQLmUPkpwMP)">
+          <g>
+            <g/>
+          </g>
+        </g>
+        <g clip-path="url(#id0:RwRKNiqwKEhu)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="orange" paint-order="fill stroke markers" d=" M 574.1279069767443 220.12692766362957 L 628.7790697674419 220.12692766362957" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6" stroke-opacity="0.3"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id0:ghbqyADHOdMq)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="orange" paint-order="fill stroke markers" d=" M 656.1046511627908 159.54436052207572 L 738.0813953488373 159.54436052207572" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6"/>
+              <path fill="none" stroke="orange" paint-order="fill stroke markers" d=" M 273.546511627907 243.56346383181477 L 328.1976744186047 243.56346383181477" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6"/>
+              <path fill="none" stroke="orange" paint-order="fill stroke markers" d=" M 273.546511627907 229.85396902663138 L 328.1976744186047 229.85396902663138" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6"/>
+              <path fill="none" stroke="orange" paint-order="fill stroke markers" d=" M 273.546511627907 189.14551205606173 L 328.1976744186047 189.14551205606173" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6"/>
+              <path fill="none" stroke="orange" paint-order="fill stroke markers" d=" M 109.59302325581396 142.2724397196913 L 273.546511627907 142.2724397196913" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6"/>
+              <path fill="none" stroke="orange" paint-order="fill stroke markers" d=" M 574.1279069767443 144.00675702316514 L 628.7790697674419 144.00675702316514" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id0:eEIztQtmaTnP)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="orange" paint-order="fill stroke markers" d=" M 546.8023255813954 220.12692766362957 L 601.4534883720931 220.12692766362957" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-opacity="0.3"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id0:TygyZnKbbtym)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="orange" paint-order="fill stroke markers" d=" M 109.59302325581396 159.54436052207572 L 765.4069767441862 159.54436052207572" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+              <path fill="none" stroke="orange" paint-order="fill stroke markers" d=" M 109.59302325581396 243.56346383181477 L 765.4069767441862 243.56346383181477" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+              <path fill="none" stroke="orange" paint-order="fill stroke markers" d=" M 109.59302325581396 229.85396902663138 L 765.4069767441862 229.85396902663138" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+              <path fill="none" stroke="orange" paint-order="fill stroke markers" d=" M 109.59302325581396 189.14551205606173 L 765.4069767441862 189.14551205606173" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+              <path fill="none" stroke="orange" paint-order="fill stroke markers" d=" M 109.59302325581396 142.2724397196913 L 765.4069767441862 142.2724397196913" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+              <path fill="none" stroke="orange" paint-order="fill stroke markers" d=" M 546.8023255813954 144.00675702316514 L 601.4534883720931 144.00675702316514" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id0:sFUQkGJPFPVt)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 464.82558139534893 165.70897588787653 L 519.4767441860465 165.70897588787653" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6" stroke-opacity="0.3"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 492.15116279069775 64.41795177575304 L 546.8023255813954 64.41795177575304" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6" stroke-opacity="0.3"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 410.17441860465124 165.70897588787653 L 464.82558139534893 165.70897588787653" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6" stroke-opacity="0.3"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 437.50000000000006 33.43653616818523 L 492.15116279069775 33.43653616818523" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6" stroke-opacity="0.3"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id0:nttLPiKVCHpC)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 328.1976744186047 128.56294491450785 L 546.8023255813954 128.56294491450785" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 328.1976744186047 99.91430072014072 L 546.8023255813954 99.91430072014072" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 601.4534883720931 56.87307233637043 L 765.4069767441862 56.87307233637043" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 656.1046511627908 69.91300517279987 L 765.4069767441862 69.91300517279987" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 109.59302325581396 56.87307233637043 L 164.24418604651163 56.87307233637043" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 109.59302325581396 69.91300517279987 L 273.546511627907 69.91300517279987" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id0:gvWrqnRPaJwW)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 382.84883720930236 165.70897588787653 L 546.8023255813954 165.70897588787653" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-opacity="0.3"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 382.84883720930236 64.41795177575304 L 546.8023255813954 64.41795177575304" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-opacity="0.3"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 382.84883720930236 165.70897588787653 L 546.8023255813954 165.70897588787653" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-opacity="0.3"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 382.84883720930236 33.43653616818523 L 546.8023255813954 33.43653616818523" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-opacity="0.3"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id0:GZhQXFAGmgHO)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 328.1976744186047 128.56294491450785 L 546.8023255813954 128.56294491450785" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 328.1976744186047 99.91430072014072 L 546.8023255813954 99.91430072014072" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 601.4534883720931 56.87307233637043 L 765.4069767441862 56.87307233637043" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 656.1046511627908 69.91300517279987 L 765.4069767441862 69.91300517279987" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 109.59302325581396 56.87307233637043 L 164.24418604651163 56.87307233637043" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+              <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 109.59302325581396 69.91300517279987 L 273.546511627907 69.91300517279987" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id0:JNBLabLTgJGK)">
+          <g/>
+        </g>
+        <g/>
+        <g>
+          <g fill="#444444">
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 267 L 790 267" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 137 275 L 137 267" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 246 275 L 246 267" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 356 275 L 356 267" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 465 275 L 465 267" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 574 275 L 574 267" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 683 275 L 683 267" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="" stroke="black" paint-order="fill stroke markers" d=" M 137 275 L 137 267" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <g transform="translate(137,280) rotate(0,0,0)">
+              <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="hanging">Jan</text>
+              <g transform="rotate(0,0,0) translate(-137,-280) translate(246,280) rotate(0,0,0)">
+                <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="hanging">Mar</text>
+                <g transform="rotate(0,0,0) translate(-246,-280) translate(356,280) rotate(0,0,0)">
+                  <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="hanging">May</text>
+                  <g transform="rotate(0,0,0) translate(-356,-280) translate(465,280) rotate(0,0,0)">
+                    <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="hanging">Jul</text>
+                    <g transform="rotate(0,0,0) translate(-465,-280) translate(574,280) rotate(0,0,0)">
+                      <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="hanging">Sep</text>
+                      <g transform="rotate(0,0,0) translate(-574,-280) translate(683,280) rotate(0,0,0)">
+                        <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="hanging">Nov</text>
+                        <g transform="rotate(0,0,0) translate(-683,-280) translate(137,280) rotate(0,0,0)">
+                          <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="hanging">Jan</text>
+                          <g transform="rotate(0,0,0) translate(-137,-280)"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g>
+          <g fill="black">
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 267 L 85 10" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 77 244 L 85 244" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 77 166 L 85 166" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 77 88 L 85 88" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 77 10 L 85 10" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 267 L 85 267" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 261 L 85 261" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 256 L 85 256" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 251 L 85 251" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 247 L 85 247" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 244 L 85 244" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 244 L 85 244" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 220 L 85 220" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 206 L 85 206" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 197 L 85 197" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 189 L 85 189" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 183 L 85 183" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 178 L 85 178" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 173 L 85 173" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 169 L 85 169" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 166 L 85 166" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 166 L 85 166" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 142 L 85 142" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 129 L 85 129" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 119 L 85 119" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 111 L 85 111" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 105 L 85 105" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 100 L 85 100" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 95 L 85 95" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 91 L 85 91" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 88 L 85 88" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 88 L 85 88" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 64 L 85 64" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 51 L 85 51" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 41 L 85 41" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 33 L 85 33" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 27 L 85 27" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 22 L 85 22" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 18 L 85 18" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 14 L 85 14" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 85 10 L 85 10" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="" stroke="black" paint-order="fill stroke markers" d=" M 85 10 L 85 10" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <g transform="translate(72,244) rotate(0,0,0)">
+              <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">0.01</text>
+              <g transform="rotate(0,0,0) translate(-72,-244) translate(72,166) rotate(0,0,0)">
+                <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">0.1</text>
+                <g transform="rotate(0,0,0) translate(-72,-166) translate(72,88) rotate(0,0,0)">
+                  <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">1</text>
+                  <g transform="rotate(0,0,0) translate(-72,-88) translate(72,10) rotate(0,0,0)">
+                    <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">10</text>
+                    <g transform="rotate(0,0,0) translate(-72,-10) translate(24,139) rotate(-90,0,0)">
+                      <text fill="" stroke="none" font-family="helvetica" font-size="15pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">Nitrate flux (mmol N m&#8315;&#178; d&#8315;&#185;)</text>
+                      <g transform="rotate(90,0,0) translate(-24,-139)"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id0:hxcMGcvAQwhM)">
+          <g/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="id1:id1" transform="translate(800.0,50.0)">
+    <g>
+      <g transform="scale(1,1) translate(0.5,0.5)">
+        <rect fill="#FFFFFF" stroke="none" x="0" y="0" width="250" height="200"/>
+        <rect fill="#ffffff" stroke="none" x="0" y="0" width="250" height="200"/>
+        <rect fill="#FFFFFF" stroke="none" x="10" y="10" width="230" height="180"/>
+        <rect fill="#ffffff" stroke="none" x="10" y="10" width="230" height="180"/>
+        <g clip-path="url(#id1:VbFKsFbSTspy)">
+          <g>
+            <g/>
+          </g>
+        </g>
+        <g clip-path="url(#id1:PcJVPGvGrKBy)">
+          <g>
+            <g/>
+          </g>
+        </g>
+        <g clip-path="url(#id1:KChCOleoFgNk)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id1:sUwZNETfHtNp)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id1:oDeXhFHWmVmh)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id1:RPfbCeprneLU)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id1:cHRLHQmyHbZB)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id1:kNWcCyAdXAal)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id1:lloMxJKeTZsl)">
+          <g>
+            <g/>
+            <g>
+              <path fill="#ffffff" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 20 20 L 240.71875 20 L 240.71875 175 L 20 175 L 20 20 Z" fill-opacity="0.95" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.5"/>
+              <text fill="#444444" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="55" y="40" text-anchor="start" dominant-baseline="central">Perennial stratification</text>
+              <g>
+                <path fill="none" stroke="orange" paint-order="fill stroke markers" d=" M 30 40 L 50 40" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="7"/>
+              </g>
+              <text fill="#444444" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="55" y="63" text-anchor="start" dominant-baseline="central">Winter overturning</text>
+              <g>
+                <path fill="none" stroke="blue" paint-order="fill stroke markers" d=" M 30 63 L 50 63" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="7"/>
+              </g>
+              <text fill="#444444" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="55" y="86" text-anchor="start" dominant-baseline="central">Measured</text>
+              <g>
+                <path fill="none" stroke="#000000" paint-order="fill stroke markers" d=" M 30 86 L 50 86" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="6"/>
+              </g>
+              <text fill="#444444" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="55" y="109" text-anchor="start" dominant-baseline="central">Stipulated</text>
+              <g>
+                <path fill="none" stroke="#000000" paint-order="fill stroke markers" d=" M 30 109 L 50 109" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+              </g>
+              <text fill="#444444" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="55" y="132" text-anchor="start" dominant-baseline="central">Few stations</text>
+              <g>
+                <path fill="none" stroke="#000000" paint-order="fill stroke markers" d=" M 30 132 L 50 132" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="7" stroke-opacity="0.3"/>
+              </g>
+              <text fill="#444444" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="55" y="155" text-anchor="start" dominant-baseline="central">Larger-scale aggregate</text>
+              <g>
+                <path fill="none" stroke="#000000" paint-order="fill stroke markers" d=" M 30 155 L 50 155" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="7"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g/>
+        <g/>
+        <g/>
+        <g clip-path="url(#id1:iUBKgPvgrwse)">
+          <g/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
