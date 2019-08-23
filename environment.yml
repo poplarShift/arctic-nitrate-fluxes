@@ -34,9 +34,10 @@ dependencies:
   - lxml
   - pip
   - pip:
-      - pandoc-crossref
-      - pandoc-citeproc
-      - git+https://github.com/varnion/svg_stack@d324a93a42d80c98a2ed27e4004a1781b44ffc0a
+    - testipynb
+    - pandoc-crossref
+    - pandoc-citeproc
+    - git+https://github.com/varnion/svg_stack@d324a93a42d80c98a2ed27e4004a1781b44ffc0a
 
 # run as: $ conda env create -f environment.yml
 

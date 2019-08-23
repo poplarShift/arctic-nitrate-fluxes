@@ -21,3 +21,6 @@ One, to explore seasonal cycles of nitrate concentrations, works as a standalone
 The second one is more data-intensive and needs a live python server. It can be launched using the command line:
 > `cd nb && panel serve --show A3_app_explore_nitrate.ipynb`
 provided you have all packages installed (see the `environment.yml` file).
+
+Test notebooks using
+> `python tests/test_notebooks.py`
