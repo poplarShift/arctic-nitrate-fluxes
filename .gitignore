@@ -5,6 +5,7 @@ __pycache__
 
 todo.md
 tmp
+tmp_*
 backup
 debug.py
 *.xlsx
@@ -15,11 +16,13 @@ nb/backup.ipynb
 nb/notes.ipynb
 
 data/laptev
-data/no3-compilation/database.csv
+
 # ?
 data/regions
 data/fn-compilation-database
-
+# files too big
+data/no3-compilation/database.csv
+data/no3-compilation/database.feather
 
 paper/frontiers_csl
 paper/markdown_template
