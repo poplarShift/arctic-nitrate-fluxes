@@ -5,24 +5,30 @@ import itertools
 import datetime as dt
 from collections import OrderedDict
 
+from IPython.display import Markdown, display, HTML
 from scipy.io import loadmat
+
+# --- DATA HANDLING
+
 import numpy as np
 from skimage import exposure
-
 import pandas as pd
-from utils.pandas import pandas_df_to_markdown_table
+import dask.dataframe as dd
 import xarray as xr
+import gsw
+
+# --- GEO
 
 import geopandas as gpd
 import shapely as shp
 from shapely.geometry import Point, MultiPoint, LineString, Polygon, box
+from shapely.ops import unary_union
 from fiona.crs import from_epsg # look up EPSG codes here: http://spatialreference.org
 import cartopy.io.shapereader as shpreader
 import cartopy.feature as cfeature
 from cartopy import crs as ccrs
 
-import gsw
-import utils.ctd as ctdut
+# --- VIZ
 
 import matplotlib as mpl
 import matplotlib.path as mpath
@@ -30,11 +36,12 @@ import matplotlib.pyplot as plt
 import cmocean
 import colorcet
 
-from bokeh.models import PrintfTickFormatter, LogTickFormatter, LogTicker
+from bokeh.models import (
+    PrintfTickFormatter, LogTickFormatter, LogTicker,
+    ColorBar, # Title
+)
 from bokeh.models.mappers import LinearColorMapper, LogColorMapper
 from bokeh.io import export_svgs, curdoc, show as bshow
-
-from utils.holoviews.export_multisvg import save_bokeh_svg_multipanel, save_bokeh_svg
 
 import holoviews as hv
 import geoviews as gv
@@ -45,15 +52,37 @@ import datashader.reductions as dsr
 from geoviews import opts
 from holoviews import dim, streams
 from holoviews.operation.datashader import datashade, rasterize, dynspread
+from holoviews.operation.stats import bivariate_kde
 from holoviews.core.io import Unpickler, Pickler
 from holoviews.plotting.links import DataLink
 import hvplot.pandas
 import hvplot.xarray
+import panel as pn
 
 default_cmap = 'bgy_r'
 
-from utils.mpl import cmap_to_list
+
+
+
+# --- UTILS
+
 import utils.holoviews as hvu
+# from utils.holoviews import flatten
+from utils.holoviews.export_multisvg import save_bokeh_svg, save_bokeh_svg_multipanel
+from utils.holoviews.switch_backend import (
+    translate_options,
+    bokeh2mpl,
+    add_backend_to_opts,
+)
+from utils.holoviews.style_link import StyleLink
+from utils.holoviews.operation import lowess, sm_lowess, bin_average
+from utils.holoviews.faceted_bokeh_legend import faceted_legend, faceted_legend_opts
+
+from utils.mpl import cmap_to_list, circumpolar_axis, squeeze_axis_upward
+from utils.xarray import get_unique
+from utils.geometry import smoothen
+from utils.pandas import df_to_gdf, pandas_df_to_markdown_table
+import utils.ctd as ctdut
 
 # --- THEMING , STYLING, ETC.
 
@@ -104,8 +133,8 @@ theme = Theme(json={
         # 'major_label_text_font_size': '14pt',
     }
 }})
-# hv.renderer('bokeh').theme = theme
-# gv.renderer('bokeh').theme = theme
+hv.renderer('bokeh').theme = theme
+gv.renderer('bokeh').theme = theme
 
 # --- holoviews options
 
@@ -144,11 +173,7 @@ override = {
     'Feature': {'scale': '110m'}
 }
 
-from utils.holoviews.switch_backend import (
-    translate_options,
-    bokeh2mpl,
-    add_backend_to_opts,
-)
+
 add_backend_to_opts(opts_map_bk, 'bokeh')
 add_backend_to_opts(opts_timeseries_bk, 'bokeh')
 
@@ -160,9 +185,6 @@ opts_timeseries = opts_timeseries_bk + opts_timeseries_mpl
 
 
 # --- custom definitions and data
-
-from utils.geometry import smoothen
-from utils.pandas import df_to_gdf
 
 import warnings
 def mplrender(obj, fname=None, hooks=None):
@@ -183,8 +205,6 @@ def mplrender(obj, fname=None, hooks=None):
         fig.savefig(fname+'.pdf')
         fig.savefig(fname+'.png')
     return fig
-
-from utils.mpl import circumpolar_axis, squeeze_axis_upward
 
 def mplrender_map(obj, fname=None, hooks=None):
     def hook_adjust_map(fig):
