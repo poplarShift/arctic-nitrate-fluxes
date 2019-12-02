@@ -1,0 +1,57 @@
+# this is a human-maintainable environment yaml file with minimal indications
+# of versions. it is used for setting up the environment by humans.
+# it will use the newest available and compatible software versions,
+# which may not be desirable for 100% replication.
+# docker/binder applications and other efforts to reproduce
+# the contents of this analysis should use the  environments.yml file
+name: nitrateflux
+channels:
+  - conda-forge
+dependencies:
+  - nodejs
+  - tornado<6
+  - python
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas
+  - xlrd
+  - pyarrow
+  - geopandas
+  - geoplot
+  - shapely
+  - xarray
+  - xesmf
+  - fiona
+  - dask
+  - holoviews
+  - hvplot
+  - geoviews
+  - panel
+  - matplotlib
+  - cmocean
+  - bokeh
+  - phantomjs
+  - selenium
+  - geckodriver
+  - gsw
+  - cartopy
+  - jupyterlab
+  - pandoc
+  - pandoc-crossref
+  - lxml
+  - pip
+  - pip:
+    - git+https://github.com/varnion/svg_stack@d324a93a42d80c98a2ed27e4004a1781b44ffc0a
+
+# run as: $ conda env create -f binder/environment.yml
+
+# remove: $ conda remove --name nitrateflux --all
+
+# afterwards, run $ jupyter labextension install @jupyterlab/toc @pyviz/jupyterlab_pyviz
+
+
+# also:
+# wget https://raw.githubusercontent.com/netj/markdown-diff/master/markdown-format-wdiff
+# chmod 755 markdown-format-wdiff
+# brew install wdiff
