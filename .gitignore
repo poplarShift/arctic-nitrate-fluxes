@@ -13,6 +13,7 @@ tmp_*
 backup
 tests
 *.tiff
+reviews
 
 
 data/youngsound2015/ys_bathy_v3.0_raw.nc

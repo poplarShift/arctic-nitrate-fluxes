@@ -8,12 +8,12 @@ pushd fig
 for f in *.png; do convert "$f" "${f%%.*}.tiff"; done
 popd
 
-cslfile='frontiers.csl'
-articlefile='paper'
-bib='bibliography.bib'
-bib_full='bibliographyfull.bib'
+export cslfile='frontiers.csl'
+export articlefile='paper'
+export bib='bibliography.bib'
+export bib_full='bibliographyfull.bib'
 
-pushd paper # ./paper
+cd paper # ./paper
 
 # preferably use full bib file, but if unavailable (e.g. in exported docker or
 # public repo) then use the reduced file (exported with bibexport during the
@@ -24,14 +24,7 @@ fi
 
 echo Using bibfile: $bib
 
-# create static version from master
-# here, we used CriticMarkup to use a syntax that's already used by at least someone
-# First insert newlines after closing brackets so the regex matching becomes easier (otherwise, lumps together all bracket expressions per line).
-perl -0777 -pe 's/~~}/~~}\n/g' $articlefile.md > ${articlefile}_tmp.md
-# the first option refers to the static version (e.g. png figures), the second to the interactive one (html figures)
-perl -0777 -pe 's/{~~(.*)~>(.*)~~}\n/\1/g' ${articlefile}_tmp.md > ${articlefile}_static.md
-perl -0777 -pe 's/{~~(.*)~>(.*)~~}\n/\2/g' ${articlefile}_tmp.md > ${articlefile}_interactive.md
-rm ${articlefile}_tmp.md
+./parse_articlefile.sh
 
 # include height of each HTML element in markdown
 # should find a better solution than Selenium+PhantomJS (deprecation warning)
@@ -46,7 +39,7 @@ python move_figures_into_text.py ${articlefile}_static.md
 python move_figures_into_text.py ${articlefile}_interactive.md
 # --- static paper
 # -html
-pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl $cslfile --mathjax --self-contained --resource-path=.:../nb_fig/:../fig -o ${articlefile}_static.html ${articlefile}_static.md
+pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl $cslfile --self-contained --resource-path=.:../nb_fig/:../fig -o ${articlefile}_static.html ${articlefile}_static.md
 
 # # -pdf
 # pandoc --bibliography $bib --pdf-engine=xelatex --filter pandoc-crossref --filter pandoc-citeproc --csl markdown_template/frontiers.csl --mathjax -o ${articlefile}.pdf ${articlefile}_static.md
@@ -57,4 +50,4 @@ pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --c
 # clean up
 rm ${articlefile}_static.md ${articlefile}_interactive.md
 
-popd # ./
+cd .. # ./
