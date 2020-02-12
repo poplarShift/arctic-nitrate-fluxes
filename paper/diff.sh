@@ -1,26 +1,47 @@
 #!/bin/bash
 
+export articlefile='paper'
+
 tmpdir=_tmp_manuscript_diff
 
-cslfile='frontiers.csl'
-export articlefile='paper'
-bib='bibliography.bib'
+# set only if not already defined
+: "${bib:=bibliographyfull.bib}"
 
 git clone -b v0.1.1 .. $tmpdir
-
-# pandiff $tmpdir/paper/paper_static.md paper/paper_static.md -o paper/paper_trackchanges.docx
 
 # parse papers both in old and new versions
 
 # old
 cd $tmpdir/paper
 ./parse_articlefile.sh
+old=$tmpdir/paper/${articlefile}_static.md
 cd ../..
 # new
 ./parse_articlefile.sh
+new=${articlefile}_static.md
 
-wdiff $tmpdir/paper/${articlefile}_static.md ${articlefile}_static.md | ./markdown-format-wdiff > ${articlefile}_trackchanges.md
+tracked=${articlefile}_trackchanges
 
-pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl $cslfile --self-contained --resource-path=.:../nb_fig/:../fig -o ${articlefile}_trackchanges.html ${articlefile}_trackchanges.md
+pandiff $old $new -o $tracked.html --bibliography $bib --filter pandoc-crossref  --filter pandoc-citeproc
+
+# append stylesheet
+echo '
+<style>
+del {
+  color: #b31d28;
+  background-color: #ffeef0;
+  text-decoration: line-through;
+}
+ins {
+  color: #22863a;
+  background-color: #f0fff4;
+  text-decoration: underline;
+}
+img {
+  max-width: 100%;
+  min-width: 60%;
+}
+</style>
+' >> $tracked.html
 
 rm -rf $tmpdir

@@ -1,13 +1,10 @@
 #!/bin/bash
 
-file='paper_static'
 tmp='_tmp_bibexport'
-bib='bibliography.bib'
-bib_full='bibliographyfull.bib'
-
+infile=${articlefile}_static
 
 # generate standalone tex file
-pandoc --bibliography $bib_full --filter pandoc-crossref --filter pandoc-citeproc --natbib --csl frontiers.csl -s -o $tmp.tex $file.md
+pandoc --bibliography $bib_full --filter pandoc-crossref --filter pandoc-citeproc --natbib --csl frontiers.csl -s -o $tmp.tex $infile.md
 # generate latex aux file
 lualatex $tmp.tex
 bibtex $tmp

@@ -1,0 +1,656 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with svg_stack (http://github.com/astraw/svg_stack) -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="840.0" height="479.0">
+  <defs>
+    <clipPath id="id0:ulraBgNeTsPT">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id0:icacMptKpfcA">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id0:wHUNaelOSmyP">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id0:JeKAUnxoHFVq">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id0:vTBeOpFDkHVx">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id0:wKabGEVkXCqt">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id0:UXiUEMclqKac">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id0:DlCZbLREWDCM">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id1:GmIUmKyGzqBo">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id1:TAQMXWJoHNOq">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id1:zNmyIcaBhCiN">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id1:dLOdeNVMnpqd">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id1:ChHDeaPamRVg">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id1:TGZXWcToBRMi">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id1:QDIcxpTrZbVs">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id1:cUgGREmGVwxO">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id2:qWlLhvyFRziI">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id2:xzVAlANePuoW">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id2:ugmlMyTMtoUp">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id2:QsPprLGxqRHu">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id2:MRBWKqrugBMb">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+    <clipPath id="id2:zvtOhyJpReyJ">
+      <path fill="none" stroke="none" d=" M 70 69 L 270 69 L 270 469 L 70 469 L 70 69 Z"/>
+    </clipPath>
+  </defs>
+  <g id="id0:id0" transform="translate(0.0,0)">
+    <g>
+      <g transform="scale(1,1) translate(0.5,0.5)">
+        <rect fill="#FFFFFF" stroke="none" x="0" y="0" width="280" height="479"/>
+        <rect fill="#ffffff" stroke="none" x="0" y="0" width="280" height="479"/>
+        <rect fill="#FFFFFF" stroke="none" x="70" y="69" width="200" height="400"/>
+        <rect fill="#ffffff" stroke="none" x="70" y="69" width="200" height="400"/>
+        <g clip-path="url(#id0:ulraBgNeTsPT)">
+          <g>
+            <g>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 112 69 L 112 469" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 164 69 L 164 469" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 216 69 L 216 469" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 267 69 L 267 469" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id0:icacMptKpfcA)">
+          <g>
+            <g>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 70 142 L 270 142" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 70 214 L 270 214" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 70 287 L 270 287" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 70 360 L 270 360" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 70 433 L 270 433" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id0:wHUNaelOSmyP)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="#d60000" paint-order="fill stroke markers" d=" M 213.30874947204268 87.18181818181819 L 219.58029234808868 123.54545454545455 L 223.17571898195058 159.9090909090909 L 226.85694791903586 196.27272727272725 L 229.3741600678149 232.63636363636363 L 237.22041888064183 269" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="6,4,2,4"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id0:JeKAUnxoHFVq)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="#8c3bff" paint-order="fill stroke markers" d=" M 79.0909090909091 87.18181818181819 L 93.51448301527907 123.54545454545455 L 146.95226083900184 159.9090909090909 L 219.91264705274267 196.27272727272725 L 248.84508032336106 232.63636363636363 L 249.0259887940125 269" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="6"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id0:vTBeOpFDkHVx)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="#00acc6" paint-order="fill stroke markers" d=" M 205.385696859429 112.63636363636363 L 208.91082763040924 127.18181818181819 L 225.44069303450704 141.72727272727272 L 232.78040812950985 156.27272727272725 L 237.50470362023702 170.8181818181818 L 245.76446750883872 185.36363636363637 L 253.27992226104578 199.9090909090909 L 254.21030868153912 214.45454545454544 L 254.6961771455745 229 L 254.92360493725062 243.54545454545453 L 255.13035747513806 258.0909090909091 L 255.26474662476488 272.6363636363636 L 255.36812289370863 287.1818181818182 L 255.90567949221588 301.72727272727275 L 256.94977980854725 316.27272727272725 L 258.3350218123928 330.8181818181818 L 259.0276428143156 345.3636363636364 L 259.6168875472947 359.9090909090909 L 260.1130936382245 374.45454545454544 L 260.1751193995907 389 L 260.1751193995907 403.54545454545456 L 260.16478177269624 418.09090909090907 L 260.1544441458019 432.6363636363636" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id0:wKabGEVkXCqt)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="#018700" paint-order="fill stroke markers" d=" M 206.9053280129014 112.63636363636363 L 207.5669361341411 127.18181818181819 L 211.12307978580446 141.72727272727272 L 231.59158103665732 156.27272727272725 L 237.64943039675813 170.8181818181818 L 242.7355428287883 185.36363636363637 L 243.94504517542958 199.9090909090909 L 244.79273058076797 214.45454545454544 L 247.31511154299426 229 L 249.78580437074874 243.54545454545453 L 253.05249446936966 258.0909090909091 L 254.54111274215904 272.6363636363636 L 255.79196559637774 287.1818181818182 L 256.99113031612467 301.72727272727275 L 257.49767403394884 316.27272727272725 L 257.7871275869912 330.8181818181818 L 258.1282692745054 345.3636363636364 L 258.30400893170963 359.9090909090909 L 258.62447536543516 374.45454545454544 L 259.03798044121 389 L 259.13101908325933 403.54545454545456 L 259.17236959083675 418.09090909090907 L 259.30675874046364 432.6363636363636 L 259.513511278351 447.1818181818182 L 259.74093907002714 461.7272727272727 L 259.8546529658652 476.27272727272725 L 259.989042115492 490.8181818181818 L 260.0924183844357 505.3636363636364 L 260.0924183844357 519.9090909090909 L 260.1130936382245 534.4545454545455 L 260.24748278785125 549 L 260.6713254905205 563.5454545454545 L 260.74368887878103 578.090909090909 L 260.8884156553022 592.6363636363636 L 260.87807802840786 607.1818181818181 L 260.8987532821966 621.7272727272727 L 260.8987532821966 636.2727272727273 L 260.90909090909093 650.8181818181818 L 260.8987532821966 665.3636363636364 L 260.8987532821966 679.9090909090909 L 260.8987532821966 694.4545454545454 L 260.8987532821966 709 L 260.8987532821966 723.5454545454545" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="2,4"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id0:UXiUEMclqKac)">
+          <g>
+            <g/>
+            <g>
+              <path fill="#ffffff" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 80 350 L 277.703125 350 L 277.703125 459 L 80 459 L 80 350 Z" fill-opacity="0.95" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.5"/>
+              <text fill="#444444" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="115" y="370" text-anchor="start" dominant-baseline="central">Winter 2008 mean</text>
+              <g>
+                <path fill="none" stroke="#d60000" paint-order="fill stroke markers" d=" M 90 370 L 110 370" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="6,4,2,4"/>
+              </g>
+              <text fill="#444444" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="115" y="393" text-anchor="start" dominant-baseline="central">Summer 2011 mean</text>
+              <g>
+                <path fill="none" stroke="#8c3bff" paint-order="fill stroke markers" d=" M 90 393 L 110 393" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="6"/>
+              </g>
+              <text fill="#444444" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="115" y="416" text-anchor="start" dominant-baseline="central">2018 cast 62</text>
+              <g>
+                <path fill="none" stroke="#00acc6" paint-order="fill stroke markers" d=" M 90 416 L 110 416" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+              </g>
+              <text fill="#444444" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="115" y="439" text-anchor="start" dominant-baseline="central">2018 cast 59</text>
+              <g>
+                <path fill="none" stroke="#018700" paint-order="fill stroke markers" d=" M 90 439 L 110 439" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="2,4"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g/>
+        <g>
+          <g fill="black">
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 69 L 270 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 112 61 L 112 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 164 61 L 164 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 216 61 L 216 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 267 61 L 267 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 102 69 L 102 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 92 69 L 92 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 81 69 L 81 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 71 69 L 71 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 112 69 L 112 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 123 69 L 123 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 133 69 L 133 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 143 69 L 143 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 154 69 L 154 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 164 69 L 164 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 174 69 L 174 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 185 69 L 185 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 195 69 L 195 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 205 69 L 205 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 216 69 L 216 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 226 69 L 226 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 236 69 L 236 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 247 69 L 247 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 257 69 L 257 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="" stroke="black" paint-order="fill stroke markers" d=" M 267 69 L 267 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <g transform="translate(112,56) rotate(0,0,0)">
+              <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">20</text>
+              <g transform="rotate(0,0,0) translate(-112,-56) translate(164,56) rotate(0,0,0)">
+                <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">25</text>
+                <g transform="rotate(0,0,0) translate(-164,-56) translate(216,56) rotate(0,0,0)">
+                  <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">30</text>
+                  <g transform="rotate(0,0,0) translate(-216,-56) translate(267,56) rotate(0,0,0)">
+                    <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">35</text>
+                    <g transform="rotate(0,0,0) translate(-267,-56) translate(170,24) rotate(0,0,0)">
+                      <text fill="" stroke="none" font-family="helvetica" font-size="15pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">Salinity (g kg&#8315;&#185;)</text>
+                      <g transform="rotate(0,0,0) translate(-170,-24)"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g>
+          <g fill="black">
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 69 L 70 469" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 69 L 70 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 142 L 70 142" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 214 L 70 214" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 287 L 70 287" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 360 L 70 360" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 433 L 70 433" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 69 L 70 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 84 L 70 84" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 98 L 70 98" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 113 L 70 113" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 127 L 70 127" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 142 L 70 142" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 156 L 70 156" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 171 L 70 171" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 185 L 70 185" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 200 L 70 200" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 214 L 70 214" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 229 L 70 229" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 244 L 70 244" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 258 L 70 258" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 273 L 70 273" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 287 L 70 287" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 302 L 70 302" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 316 L 70 316" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 331 L 70 331" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 345 L 70 345" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 360 L 70 360" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 374 L 70 374" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 389 L 70 389" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 404 L 70 404" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 418 L 70 418" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 433 L 70 433" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 447 L 70 447" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="" stroke="black" paint-order="fill stroke markers" d=" M 70 462 L 70 462" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <g transform="translate(57,69) rotate(0,0,0)">
+              <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">0</text>
+              <g transform="rotate(0,0,0) translate(-57,-69) translate(57,142) rotate(0,0,0)">
+                <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">10</text>
+                <g transform="rotate(0,0,0) translate(-57,-142) translate(57,214) rotate(0,0,0)">
+                  <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">20</text>
+                  <g transform="rotate(0,0,0) translate(-57,-214) translate(57,287) rotate(0,0,0)">
+                    <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">30</text>
+                    <g transform="rotate(0,0,0) translate(-57,-287) translate(57,360) rotate(0,0,0)">
+                      <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">40</text>
+                      <g transform="rotate(0,0,0) translate(-57,-360) translate(57,433) rotate(0,0,0)">
+                        <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">50</text>
+                        <g transform="rotate(0,0,0) translate(-57,-433) translate(24,269) rotate(-90,0,0)">
+                          <text fill="" stroke="none" font-family="helvetica" font-size="15pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">Depth (m)</text>
+                          <g transform="rotate(90,0,0) translate(-24,-269)"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id0:DlCZbLREWDCM)">
+          <g/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="id1:id1" transform="translate(280.0,0)">
+    <g>
+      <g transform="scale(1,1) translate(0.5,0.5)">
+        <rect fill="#FFFFFF" stroke="none" x="0" y="0" width="280" height="479"/>
+        <rect fill="#ffffff" stroke="none" x="0" y="0" width="280" height="479"/>
+        <rect fill="#FFFFFF" stroke="none" x="70" y="69" width="200" height="400"/>
+        <rect fill="#ffffff" stroke="none" x="70" y="69" width="200" height="400"/>
+        <g clip-path="url(#id1:GmIUmKyGzqBo)">
+          <g>
+            <g>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 99 69 L 99 469" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 127 69 L 127 469" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 156 69 L 156 469" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 184 69 L 184 469" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 213 69 L 213 469" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 241 69 L 241 469" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id1:TAQMXWJoHNOq)">
+          <g>
+            <g>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 70 142 L 270 142" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 70 214 L 270 214" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 70 287 L 270 287" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 70 360 L 270 360" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 70 433 L 270 433" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id1:zNmyIcaBhCiN)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="#d60000" paint-order="fill stroke markers" d=" M 143.12987012987014 87.18181818181819 L 132.8 123.54545454545455 L 139.51428571428573 159.9090909090909 L 148 196.27272727272725 L 159.64285714285717 232.63636363636363 L 206.85714285714286 269" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="6,4,2,4"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id1:dLOdeNVMnpqd)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="#8c3bff" paint-order="fill stroke markers" d=" M 120.6938775510204 87.18181818181819 L 119.42857142857143 123.54545454545455 L 121.35714285714286 159.9090909090909 L 92.28571428571429 196.27272727272725 L 128 232.63636363636363 L 141.42857142857144 269" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="6"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id1:ChHDeaPamRVg)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="#00acc6" paint-order="fill stroke markers" d=" M 87.02828571428572 112.63636363636363 L 82.99228571428571 127.18181818181819 L 68.4244 141.72727272727272 L 59.873999999999995 156.27272727272725 L 77.62057142857142 170.8181818181818 L 114.08857142857143 185.36363636363637 L 213.8 199.9090909090909 L 218.05714285714288 214.45454545454544 L 211.20000000000002 229 L 211.06285714285715 243.54545454545453 L 216.98285714285714 258.0909090909091 L 216.34857142857143 272.6363636363636 L 215.0514285714286 287.1818181818182 L 203.43142857142857 301.72727272727275 L 163.01428571428573 316.27272727272725 L 132.9857142857143 330.8181818181818 L 153.6142857142857 345.3636363636364 L 175.35142857142858 359.9090909090909 L 187.06 374.45454545454544 L 186.5857142857143 389 L 185.49142857142857 403.54545454545456 L 187.62 418.09090909090907 L 186.14857142857142 432.6363636363636" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id1:TGZXWcToBRMi)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="#018700" paint-order="fill stroke markers" d=" M 82.85085714285714 112.63636363636363 L 82.064 127.18181818181819 L 82.18971428571429 141.72727272727272 L 109.87142857142857 156.27272727272725 L 123.65428571428572 170.8181818181818 L 145.0057142857143 185.36363636363637 L 145.89714285714285 199.9090909090909 L 161.32285714285715 214.45454545454544 L 156.28285714285715 229 L 134.2657142857143 243.54545454545453 L 171.85714285714286 258.0909090909091 L 196.16857142857143 272.6363636363636 L 222.39428571428573 287.1818181818182 L 232.27142857142857 301.72727272727275 L 243.62857142857146 316.27272727272725 L 243.04857142857145 330.8181818181818 L 241.9257142857143 345.3636363636364 L 245.82857142857142 359.9090909090909 L 245.71714285714287 374.45454545454544 L 255.6942857142857 389 L 251.45714285714286 403.54545454545456 L 257.16 418.09090909090907 L 256.23428571428576 432.6363636363636 L 259.2057142857143 447.1818181818182 L 258.6485714285714 461.7272727272727 L 259.15999999999997 476.27272727272725 L 259.68285714285713 490.8181818181818 L 260.3857142857143 505.3636363636364 L 262.06 519.9090909090909 L 261.01714285714286 534.4545454545455 L 260.40857142857146 549 L 265.5 563.5454545454545 L 260.68 578.090909090909 L 263.4057142857143 592.6363636363636 L 265.78571428571433 607.1818181818181 L 264.36285714285714 621.7272727272727 L 266.72285714285715 636.2727272727273 L 264.8914285714286 650.8181818181818 L 266.5314285714286 665.3636363636364 L 260.8342857142857 679.9090909090909 L 263.2171428571429 694.4545454545454 L 264.10285714285715 709 L 261.7914285714286 723.5454545454545" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="2,4"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id1:QDIcxpTrZbVs)">
+          <g>
+            <g/>
+            <g>
+              <path fill="#ffffff" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 80 350 L 277.703125 350 L 277.703125 459 L 80 459 L 80 350 Z" fill-opacity="0.95" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.5"/>
+              <text fill="#444444" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="115" y="370" text-anchor="start" dominant-baseline="central">Winter 2008 mean</text>
+              <g>
+                <path fill="none" stroke="#d60000" paint-order="fill stroke markers" d=" M 90 370 L 110 370" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="6,4,2,4"/>
+              </g>
+              <text fill="#444444" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="115" y="393" text-anchor="start" dominant-baseline="central">Summer 2011 mean</text>
+              <g>
+                <path fill="none" stroke="#8c3bff" paint-order="fill stroke markers" d=" M 90 393 L 110 393" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="6"/>
+              </g>
+              <text fill="#444444" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="115" y="416" text-anchor="start" dominant-baseline="central">2018 cast 62</text>
+              <g>
+                <path fill="none" stroke="#00acc6" paint-order="fill stroke markers" d=" M 90 416 L 110 416" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+              </g>
+              <text fill="#444444" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="115" y="439" text-anchor="start" dominant-baseline="central">2018 cast 59</text>
+              <g>
+                <path fill="none" stroke="#018700" paint-order="fill stroke markers" d=" M 90 439 L 110 439" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="2,4"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g/>
+        <g>
+          <g fill="black">
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 69 L 270 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 61 L 70 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 99 61 L 99 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 127 61 L 127 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 156 61 L 156 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 184 61 L 184 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 213 61 L 213 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 241 61 L 241 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 270 61 L 270 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 69 L 70 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 76 69 L 76 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 81 69 L 81 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 87 69 L 87 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 93 69 L 93 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 99 69 L 99 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 104 69 L 104 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 110 69 L 110 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 116 69 L 116 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 121 69 L 121 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 127 69 L 127 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 133 69 L 133 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 139 69 L 139 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 144 69 L 144 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 150 69 L 150 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 156 69 L 156 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 161 69 L 161 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 167 69 L 167 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 173 69 L 173 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 179 69 L 179 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 184 69 L 184 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 190 69 L 190 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 196 69 L 196 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 201 69 L 201 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 207 69 L 207 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 213 69 L 213 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 219 69 L 219 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 224 69 L 224 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 230 69 L 230 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 236 69 L 236 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 241 69 L 241 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 247 69 L 247 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 253 69 L 253 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 259 69 L 259 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 264 69 L 264 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="" stroke="black" paint-order="fill stroke markers" d=" M 270 69 L 270 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <g transform="translate(70,56) rotate(0,0,0)">
+              <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">0</text>
+              <g transform="rotate(0,0,0) translate(-70,-56) translate(99,56) rotate(0,0,0)">
+                <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">1</text>
+                <g transform="rotate(0,0,0) translate(-99,-56) translate(127,56) rotate(0,0,0)">
+                  <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">2</text>
+                  <g transform="rotate(0,0,0) translate(-127,-56) translate(156,56) rotate(0,0,0)">
+                    <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">3</text>
+                    <g transform="rotate(0,0,0) translate(-156,-56) translate(184,56) rotate(0,0,0)">
+                      <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">4</text>
+                      <g transform="rotate(0,0,0) translate(-184,-56) translate(213,56) rotate(0,0,0)">
+                        <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">5</text>
+                        <g transform="rotate(0,0,0) translate(-213,-56) translate(241,56) rotate(0,0,0)">
+                          <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">6</text>
+                          <g transform="rotate(0,0,0) translate(-241,-56) translate(270,56) rotate(0,0,0)">
+                            <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">7</text>
+                            <g transform="rotate(0,0,0) translate(-270,-56) translate(170,24) rotate(0,0,0)">
+                              <text fill="" stroke="none" font-family="helvetica" font-size="15pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">NO&#8323; conc. (&#181;M)</text>
+                              <g transform="rotate(0,0,0) translate(-170,-24)"/>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g>
+          <g fill="black">
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 69 L 70 469" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 69 L 70 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 142 L 70 142" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 214 L 70 214" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 287 L 70 287" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 360 L 70 360" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 433 L 70 433" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 69 L 70 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 84 L 70 84" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 98 L 70 98" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 113 L 70 113" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 127 L 70 127" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 142 L 70 142" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 156 L 70 156" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 171 L 70 171" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 185 L 70 185" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 200 L 70 200" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 214 L 70 214" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 229 L 70 229" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 244 L 70 244" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 258 L 70 258" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 273 L 70 273" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 287 L 70 287" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 302 L 70 302" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 316 L 70 316" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 331 L 70 331" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 345 L 70 345" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 360 L 70 360" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 374 L 70 374" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 389 L 70 389" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 404 L 70 404" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 418 L 70 418" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 433 L 70 433" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 447 L 70 447" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="" stroke="black" paint-order="fill stroke markers" d=" M 70 462 L 70 462" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <g transform="translate(57,69) rotate(0,0,0)">
+              <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">0</text>
+              <g transform="rotate(0,0,0) translate(-57,-69) translate(57,142) rotate(0,0,0)">
+                <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">10</text>
+                <g transform="rotate(0,0,0) translate(-57,-142) translate(57,214) rotate(0,0,0)">
+                  <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">20</text>
+                  <g transform="rotate(0,0,0) translate(-57,-214) translate(57,287) rotate(0,0,0)">
+                    <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">30</text>
+                    <g transform="rotate(0,0,0) translate(-57,-287) translate(57,360) rotate(0,0,0)">
+                      <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">40</text>
+                      <g transform="rotate(0,0,0) translate(-57,-360) translate(57,433) rotate(0,0,0)">
+                        <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">50</text>
+                        <g transform="rotate(0,0,0) translate(-57,-433) translate(24,269) rotate(-90,0,0)">
+                          <text fill="" stroke="none" font-family="helvetica" font-size="15pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">Depth (m)</text>
+                          <g transform="rotate(90,0,0) translate(-24,-269)"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id1:cUgGREmGVwxO)">
+          <g/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="id2:id2" transform="translate(560.0,0)">
+    <g>
+      <g transform="scale(1,1) translate(0.5,0.5)">
+        <rect fill="#FFFFFF" stroke="none" x="0" y="0" width="280" height="479"/>
+        <rect fill="#ffffff" stroke="none" x="0" y="0" width="280" height="479"/>
+        <rect fill="#FFFFFF" stroke="none" x="70" y="69" width="200" height="400"/>
+        <rect fill="#ffffff" stroke="none" x="70" y="69" width="200" height="400"/>
+        <g clip-path="url(#id2:qWlLhvyFRziI)">
+          <g>
+            <g>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 80 69 L 80 469" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 147 69 L 147 469" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 213 69 L 213 469" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id2:xzVAlANePuoW)">
+          <g>
+            <g>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 70 142 L 270 142" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 70 214 L 270 214" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 70 287 L 270 287" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 70 360 L 270 360" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+              <path fill="none" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 70 433 L 270 433" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.9" stroke-dasharray="6,4"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id2:ugmlMyTMtoUp)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="#00acc6" paint-order="fill stroke markers" d=" M NaN 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="#00acc6" paint-order="fill stroke markers" d=" M NaN 76.19685021344992" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="#00acc6" paint-order="fill stroke markers" d=" M NaN 83.39366547852319" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="#00acc6" paint-order="fill stroke markers" d=" M 229.4921025221013 90.59044579629844 L 236.21725636396607 94.18882285028636 L 223.20081545896417 97.78719116785425 L 226.59666611806767 101.38555074913694 L 236.01840177443347 104.98390159426921 L 232.4581334644734 108.58224370338591 L 203.43515119387587 112.18057707662186 L 137.02658400793285 115.77890171411184 L 127.91122989103522 119.37721761599067 L 125.87234052207131 122.9755247823932 L 126.55666007127039 126.57382321345419 L 121.98179616408846 130.17211290930842 L 135.0900589793763 133.77039387009077 L 123.67722602099255 137.36866609593602 L 99.5607770848948 140.9669295869789 L 103.83954074730015 144.5651843433543 L 82.08475859150741 148.16343036519694 L 84.14974684260585 151.76166765264168 L 96.2038646561666 155.35989620582325 L 108.50140540920947 158.95811602487646 L 117.9115362695491 162.55632710993612 L 130.17900007993862 166.154529461137 L 111.38208257519048 169.75272307861385 L 115.24130810964083 173.35090796250154 L 115.27970330832619 176.94908411293477 L 88.62717040867346 180.54725153004836 L 83.2225731713499 184.14541021397707 L 82.75995119713184 187.7435601648556 L 131.83174547023933 191.34170138281888 L 110.91965964489238 194.93983386800153 L 99.3819299879174 198.53795762053844 L 93.99156710914158 202.13607264056432 L 87.31273278392553 205.73417892821388 L 84.75168663257573 209.33227648362197 L 75.31243045008617 212.93036530692333 L 82.88609202420864 216.52844539825273 L 83.7388053119447 220.12651675774487 L 74.91578397302469 223.72457938553447 L 63.82552585353068 227.32263328175642 L 72.59513565323975 230.92067844654542 L 85.30950117311329 234.51871488003619 L 81.90421765366031 238.11674258236349 L 77.25034325798029 241.71476155366204 L 82.07753373621685 245.3127717940666 L 85.51246716790288 248.910773303712 L 71.37304307002118 252.5087660827328 L 72.49158439208911 256.1067501312639 L 76.44895074607108 259.70472544943993 L 92.52963883703977 263.3026920373957 L 83.7241828530005 266.90064989526593 L 86.27827898452699 270.4985990231853 L 75.61505599048178 274.0965394212885 L 80.75967902648651 277.6944710897104 L 82.01008210981249 281.2923940285856 L 78.89970835277758 284.890308238049 L 77.9060493519377 288.48821371823504 L 76.35950677577104 292.08611046927865 L 75.08143270162488 295.68399849131447 L 80.79259502464507 299.2818777844773 L 85.07343388481065 302.87974834890167 L 91.45959273213853 306.4776101847224 L 77.39025236514973 310.07546329207435 L 77.2966569181587 313.67330767109195 L 68.7081187379761 317.27114332191013 L 69.85896098518808 320.8689702446634 L 80.49127050682125 324.46678843948655 L 77.51142331369465 328.0645979065143 L 71.8335622115703 331.6623986458814 L 69.89750330689218 335.26019065772243 L 78.28396782229636 338.8579739421722 L 82.42572141045403 342.4557484993653 L 85.61492086260353 346.0535143294365 L 84.8238119714513 349.65127143252033 L 84.1658376425085 353.24901980875165 L 84.9639740236033 356.8467594582651 L 79.24678046350337 360.4444903811953 L 86.97063542842038 364.04221257767716 L 85.31710493096273 367.63992604784494 L 68.33068575088174 371.23763079183374 L 80.92163932825919 374.8353268097778 L 79.838423356864 378.43301410181226 L 82.37614139082011 382.0306926680716 L 89.64369070612767 385.6283625086903 L 101.63474135527082 389.22602362380314 L 117.88790999734695 392.8236760135449 L 128.45510961602946 396.4213196780503 L 176.69169550820033 400.0189546174538" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id2:QsPprLGxqRHu)">
+          <g>
+            <g>
+              <path fill="none" stroke="none"/>
+              <path fill="none" stroke="#018700" paint-order="fill stroke markers" d=" M 275.2175375955038 90.81818181818181 L 251.97874072553017 98.0909090909091 L 253.4868233913827 105.36363636363636 L 235.21135051746185 112.63636363636363 L 234.18198947985505 119.9090909090909 L 219.64049924579982 127.18181818181819 L 152.53270803280574 134.45454545454544 L 163.830446530733 141.72727272727272 L 161.25379037285882 149 L 147.61061524880677 156.27272727272725 L 139.66734754473103 163.54545454545456 L 133.55346243610046 170.8181818181818 L 93.59774891022828 178.0909090909091 L 100.94460641203091 185.36363636363637 L 102.1478289856949 192.63636363636363 L 86.79104924597183 199.9090909090909 L 86.91810873823937 207.1818181818182 L 87.30733363967882 214.45454545454544 L 86.38547438551798 221.72727272727272 L 92.30575702176716 229 L 87.95595160944508 236.27272727272728 L 87.44782372710608 243.54545454545453 L 96.722511482141 250.8181818181818 L 109.4973909168868 258.0909090909091 L 95.44209638780808 265.3636363636364 L 86.09570724782549 272.6363636363636 L 78.08279674331808 279.9090909090909 L 83.80544162873882 287.1818181818182 L 89.10200628668252 294.45454545454544 L 75.38943164487661 301.72727272727275 L 83.86821012704918 309 L 80.10967803582446 316.27272727272725 L 82.3899822925175 323.5454545454545 L 81.95539308830557 330.8181818181818 L 91.95244470754794 338.09090909090907 L 70.98587410366655 345.3636363636364 L 79.90200790974382 352.6363636363636 L 77.47776408406268 359.9090909090909 L 86.77922411755661 367.1818181818182 L 80.56268006001112 374.45454545454544 L 91.3051633535556 381.7272727272727 L 94.72459607638523 389 L 90.72069182254926 396.27272727272725 L 86.80521779344075 403.54545454545456 L 82.30574099700982 410.8181818181818 L 83.56481520598562 418.09090909090907 L 83.32548125235778 425.3636363636364 L 94.34911577115825 432.6363636363636 L 99.73878819517705 439.9090909090909 L 102.28165171025017 447.1818181818182 L 82.28306408484515 454.45454545454544 L 80.12891365939993 461.7272727272727 L 85.31076719677014 469 L 80.52099565009749 476.27272727272725 L 86.67718251713949 483.5454545454545 L 92.36970651977174 490.8181818181818 L 95.5876596975115 498.09090909090907 L 92.9946286479899 505.3636363636364 L 89.99219496018287 512.6363636363636 L 93.15052055057126 519.9090909090909 L 96.78949952726751 527.1818181818182 L 111.90771322749603 534.4545454545455 L 108.0235289923672 541.7272727272727 L 98.2251426979591 549 L 113.9396938645713 556.2727272727273 L 112.7291215103829 563.5454545454545 L 119.83729729703055 570.8181818181818 L 116.26949345503809 578.090909090909 L 136.394750498654 585.3636363636364 L 130.04745553486475 592.6363636363636 L 134.45206033173125 599.9090909090909 L 126.52827907584543 607.1818181818181 L 125.34996391691408 614.4545454545454 L 144.31577711811315 621.7272727272727 L 141.2889588692052 629 L 141.3440852218067 636.2727272727273 L 144.82614313769625 643.5454545454545 L 152.27770841938988 650.8181818181818 L 133.75800748455407 658.0909090909091 L 144.25922395694028 665.3636363636364 L 160.97312922688127 672.6363636363636 L 163.84975645906803 679.9090909090909 L 141.79805181219814 687.1818181818181 L 152.63104008236584 694.4545454545454 L 163.59041269657098 701.7272727272727 L 147.9624266183421 709 L 164.20143992780686 716.2727272727273 L 156.4429601398416 723.5454545454545 L 155.91873841902907 730.8181818181818 L 157.1900931048879 738.0909090909091 L 165.81425395478522 745.3636363636364 L 149.9373729867237 752.6363636363636 L 167.2420477409359 759.9090909090909 L 176.8077801242393 767.1818181818181" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="2,4"/>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id2:MRBWKqrugBMb)">
+          <g>
+            <g/>
+            <g>
+              <path fill="#ffffff" stroke="#e5e5e5" paint-order="fill stroke markers" d=" M 80 396 L 162.8125 396 L 162.8125 459 L 80 459 L 80 396 Z" fill-opacity="0.95" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-opacity="0.5"/>
+              <text fill="#444444" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="115" y="416" text-anchor="start" dominant-baseline="central">2014</text>
+              <g>
+                <path fill="none" stroke="#00acc6" paint-order="fill stroke markers" d=" M 90 416 L 110 416" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3"/>
+              </g>
+              <text fill="#444444" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="115" y="439" text-anchor="start" dominant-baseline="central">2018</text>
+              <g>
+                <path fill="none" stroke="#018700" paint-order="fill stroke markers" d=" M 90 439 L 110 439" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="2,4"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g/>
+        <g>
+          <g fill="black">
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 69 L 270 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 80 61 L 80 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 147 61 L 147 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="" stroke="black" paint-order="fill stroke markers" d=" M 213 61 L 213 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <g transform="translate(80,56) rotate(0,0,0)">
+              <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">10^-9</text>
+              <g transform="rotate(0,0,0) translate(-80,-56) translate(147,56) rotate(0,0,0)">
+                <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">10^-7</text>
+                <g transform="rotate(0,0,0) translate(-147,-56) translate(213,56) rotate(0,0,0)">
+                  <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">10^-5</text>
+                  <g transform="rotate(0,0,0) translate(-213,-56) translate(170,24) rotate(0,0,0)">
+                    <text fill="" stroke="none" font-family="helvetica" font-size="15pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">TKE Dissipation (W kg&#8315;&#185;)</text>
+                    <g transform="rotate(0,0,0) translate(-170,-24)"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g>
+          <g fill="black">
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 69 L 70 469" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 69 L 70 69" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 142 L 70 142" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 214 L 70 214" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 287 L 70 287" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 360 L 70 360" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 62 433 L 70 433" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 69 L 70 69" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 84 L 70 84" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 98 L 70 98" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 113 L 70 113" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 127 L 70 127" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 142 L 70 142" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 156 L 70 156" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 171 L 70 171" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 185 L 70 185" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 200 L 70 200" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 214 L 70 214" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 229 L 70 229" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 244 L 70 244" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 258 L 70 258" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 273 L 70 273" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 287 L 70 287" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 302 L 70 302" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 316 L 70 316" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 331 L 70 331" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 345 L 70 345" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 360 L 70 360" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 374 L 70 374" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 389 L 70 389" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 404 L 70 404" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 418 L 70 418" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 433 L 70 433" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 70 447 L 70 447" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <path fill="" stroke="black" paint-order="fill stroke markers" d=" M 70 462 L 70 462" stroke-linejoin="bevel" stroke-miterlimit="10"/>
+            <g transform="translate(57,69) rotate(0,0,0)">
+              <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">0</text>
+              <g transform="rotate(0,0,0) translate(-57,-69) translate(57,142) rotate(0,0,0)">
+                <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">10</text>
+                <g transform="rotate(0,0,0) translate(-57,-142) translate(57,214) rotate(0,0,0)">
+                  <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">20</text>
+                  <g transform="rotate(0,0,0) translate(-57,-214) translate(57,287) rotate(0,0,0)">
+                    <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">30</text>
+                    <g transform="rotate(0,0,0) translate(-57,-287) translate(57,360) rotate(0,0,0)">
+                      <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">40</text>
+                      <g transform="rotate(0,0,0) translate(-57,-360) translate(57,433) rotate(0,0,0)">
+                        <text fill="" stroke="none" font-family="helvetica" font-size="13pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="end" dominant-baseline="central">50</text>
+                        <g transform="rotate(0,0,0) translate(-57,-433) translate(24,269) rotate(-90,0,0)">
+                          <text fill="" stroke="none" font-family="helvetica" font-size="15pt" font-style="normal" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="middle" dominant-baseline="alphabetic">Depth (m)</text>
+                          <g transform="rotate(90,0,0) translate(-24,-269)"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g clip-path="url(#id2:zvtOhyJpReyJ)">
+          <g/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -15,16 +15,16 @@ export bib_full='bibliographyfull.bib'
 
 cd paper # ./paper
 
+./parse_articlefile.sh
+
 # preferably use full bib file, but if unavailable (e.g. in exported docker or
-# public repo) then use the reduced file (exported with bibexport during the
-# build of the full docker)
+# public repo) then use the reduced file (exported with bibexport)
 if [ -f $bib_full ]; then
+  ./export_bibliography.sh
   bib=$bib_full
 fi
 
 echo Using bibfile: $bib
-
-./parse_articlefile.sh
 
 # include height of each HTML element in markdown
 # should find a better solution than Selenium+PhantomJS (deprecation warning)
@@ -46,6 +46,10 @@ pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --c
 
 # --- compile interactive paper
 pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl $cslfile  --self-contained --resource-path=.:../nb_fig/:../fig -o ${articlefile}_interactive.html ${articlefile}_interactive.md
+
+
+# make version with tracked changes
+./diff.sh
 
 # clean up
 rm ${articlefile}_static.md ${articlefile}_interactive.md
