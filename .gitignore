@@ -14,6 +14,7 @@ backup
 tests
 *.tiff
 reviews
+formalia
 
 
 data/youngsound2015/ys_bathy_v3.0_raw.nc

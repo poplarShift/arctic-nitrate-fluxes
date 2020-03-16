@@ -122,7 +122,7 @@ The scarcity of dedicated measurements that evaluate both nitrate fluxes, new pr
 
 Nitrogen scarcity plays a large role in constraining Arctic marine primary production [@moore2013processes; @tremblay2015global]. Nutrient limitation of phytoplankton growth is usually quantified in terms of a _half-saturation constant_ (of a Michaelis-Menten kinetics), above which nutrient uptake rates benefit less and less from increasing ambient nutrient concentrations. Reported values of such half-saturation constants vary widely according to species and physiological state, but reasonable values usually range around orders of magnitude from 0.1 to 10 µM, but clustering around 1 µM [e.g. @eppley1969halfsaturation], with larger ones for larger cells [@chisholm1992phytoplankton] and values in the lower end for picophytoplankton [@cochlan1991kinetics; @agawin2000nutrient]. We infer that larger (usually bloom-forming) species are nitrate-limited in summer across large swaths of the Arctic, but not including some of the central basin, where summer surface concentrations are in excess of e.g. 5 µM in the Makarov and Nansen basins (@Fig:NO3-COMP_map_no3_summer). These high nitrate concentrations in the Central Arctic are usually taken to indicate regionally important light limitation by perennial sea ice cover [@codispoti2013synthesis].
 
-A cautionary remark is in order regarding nitrate concentrations as indicators of potential growth. Since the nitrate supply, like phytoplankton growth, is a rate and not a stock, its present-day inventory alone does not yield sufficient information to infer possible limitations in future scenarios. Therefore the summer surplus nitrate observed in the central AO may only be available transiently while the ice cover shrinks, but not in a steady-state situation without summer sea ice.
+A cautionary remark is in order regarding nitrate concentrations as indicators of potential growth. Since the nitrate supply, like phytoplankton growth, is a rate and not a stock, its present-day inventory alone does not yield sufficient information to infer possible limitations in future scenarios. Therefore the summer surplus nitrate observed in the central Arctic Ocean may only be available transiently while the ice cover shrinks, but not in a steady-state situation without summer sea ice.
 
 In other words: If fall blooms are due to upward mixing of new nitrate, they increase new production in the short term. Whether such increases are long-term or if they instead serve to deepen the nitracline depends on the vertical mixing in winter. Similarly, a lengthening ice-free season or a more transparent ice cover lead to a deeper euphotic zone and could enhance growth in subsurface waters, richer in nutrients, but the resupply rate of nitrogen ultimately decides about potential lasting increases in new production.
 
@@ -130,13 +130,13 @@ In other words: If fall blooms are due to upward mixing of new nitrate, they inc
 
 @randelhoff2016regional provided estimates of end-of-century new production, given presently observed turbulence and potential future increases in the freshwater inventory observed in a numerical circulation model [@nummelin2015consequences]. They concluded that a potential increase in new production in the Amundsen Basin (if the system were to turn to nitrate limitation) may fall victim to future increases in vertical stability. Little is known about the future of seasonal and especially summertime stratification in the surface layer [@randelhoff2017turbulent].
 
-Contrarily, @polyakov2017greater posited that an ongoing Atlantification will lead to deeper winter convection in the Eurasian Basin. As Atlantic Water is also the principal source of heat in the Arctic Ocean, it has been implicated in recent sea ice loss [@ivanov2016arctic; @polyakov2017greater], and hence could regionally relieve nutrient and light limitation at the same time [@randelhoff2018seasonality]. The recent decreases of sea ice extent in Northern Fram Strait and north of Svalbard [@onarheim2018seasonal] indicate that such a process is already well underway. The analogue may be happening in the Chukchi sea, where the Alaskan Coastal Current brings in both large amounts of heat [@woodgate2012observed] and nutrients [@torres-valdes2013export], but the published literature is less clear on the presence and effects of such a tentative advective borealization of the Chukchi sea.
+Contrarily, @polyakov2017greater posited that an ongoing Atlantification will lead to deeper winter convection in the Eurasian Basin. As Atlantic Water is also the principal source of heat in the Arctic Ocean, it has been implicated in recent sea ice loss [@ivanov2016arctic; @polyakov2017greater], and hence could regionally relieve nutrient and light limitation at the same time [@randelhoff2018seasonality]. The recent decreases of sea ice extent in Northern Fram Strait and north of Svalbard [@onarheim2018seasonal] indicate that such a process is already well underway. The analogue may be happening in the Chukchi sea, where the Alaskan Coastal Current brings in both large amounts of heat [@woodgate2012observed] and nutrients [@torres-valdes2013export], but the published literature is less clear on the presence and effects of such a tentative advective borealization of the Chukchi Sea.
 
 ## Ice cover and wind-driven turbulence
 
-The published literature is also equivocal on whether or not the decreasing ice cover will enhance turbulent mixing in the upper ocean. While less sea ice may enhance the input of wind energy into the ocean [@rainville2009observations; @dosser2016dynamics], this energy may be dissipated at shallow depths due to the strong stratification [@lincoln2016wind]. Reanalysis of conductivity-temperature depth and acoustic Doppler current profiler finestructure data has not shown trends in turbulent mixing in recent decades either [@guthrie2013revisiting; @chanona2018variability].
+The published literature is also equivocal on whether or not the decreasing ice cover will enhance turbulent mixing in the upper ocean. While less sea ice may enhance the input of wind energy into the ocean [@rainville2009observations; @dosser2016dynamics], this energy may be dissipated at shallow depths due to the strong stratification [@lincoln2016wind]. Reanalysis of conductivity-temperature depth and acoustic Doppler current profiler finestructure data has not shown trends in turbulent mixing in recent decades [@guthrie2013revisiting; @chanona2018variability].
 
-Broken-up, free-drifting sea ice in summer may may enhance wind energy input into the upper ocean compared to ice-covered areas by enhancing surface roughness [@martin2016impact] but also decrease vertical turbulent mixing in the surface layer through the associated layer of meltwater [@randelhoff2016vertical; @randelhoff2017turbulent]. Larger freezing rates, caused by increasing proportions of first-year ice, may increase upward mixing, but the potential effects on entrainment of nitrate into the surface layer has to our knowledge not been systematically studied. A major uncertainty in any future prognoses is the scarcity of large-scale surveys of the ice-ocean boundary layer.
+Broken-up, free-drifting sea ice in summer may enhance wind energy input into the upper ocean compared to ice-covered areas by enhancing surface roughness [@martin2016impact] but also decrease vertical turbulent mixing in the surface layer through the associated layer of meltwater [@randelhoff2016vertical; @randelhoff2017turbulent]. Larger freezing rates, caused by increasing proportions of first-year ice, may increase upward mixing, but the potential effects on entrainment of nitrate into the surface layer has to our knowledge not been systematically studied. A major uncertainty in any future prognoses is the scarcity of large-scale surveys of the ice-ocean boundary layer.
 
 ## Arctic nitrate fluxes in a global context
 
@@ -183,7 +183,7 @@ The authors declare that the research was conducted in the absence of any commer
 
 # Author Contributions
 
-AR designed the study, made all visualizations, and wrote the first draft of the manuscript. AR, JMH, and MS conducted field sampling and data analysis of the Young Sound data. MBA and MJ sampled and analyzed the Laptev Sea data. MB lead the acquisition of the Baffin Bay data. JET contributed Canadian Archipelago nutrient data. All authors commented on the manuscript.
+AR designed the study, made all visualizations, and wrote the first draft of the manuscript. AR, JH, and MKS conducted field sampling and data analysis of the Young Sound data. MBA and MJ sampled and analyzed the Laptev Sea data. MB lead the acquisition of the Baffin Bay data. JET contributed Canadian Archipelago nutrient data. All authors commented on the manuscript.
 
 # Funding
 
@@ -191,7 +191,7 @@ Data acquisition of BGC-Argo Floats in Baffin Bay was funded through the NAOS pr
 
 # Acknowledgments
 
-The present paper started taking shape around the 4th "Symposium on Pan-Arctic Integration", held in Motovun, Croatia, 2017, and we thank all participants for inspiring discussions.
+The present paper started taking shape around the 4th "Symposium on Pan-Arctic Integration", held in Motovun, Croatia, 2017, and we thank all participants for inspiring discussions. We also thank two anonymous reviewers for their help.
 
 We thank Andrey Novikhin (AARI) for preparing the nutrient measurements from the Laptev Sea shelf, Xiaogang Xing for quality-controlling and calibrating the Baffin Bay BGC Argo data, and Jørgen Bendtsen and Torben Vang for providing Young Sound bathymetry data. We are further grateful to Shigeto Nishino for clarifying discussions about his work in the Chukchi Sea.
 
@@ -210,8 +210,6 @@ The supplemental material, accessible at [https://github.com/poplarShift/arctic-
 All data that were published for the first time in this study are included with the above repository. The rest are included to the extent possible.
 
 # Appendix
-
-Numerous
 
 ## The marine nitrogen cycle
 
@@ -294,7 +292,7 @@ Integrating the nitrate deficit $\Delta [NO₃⁻]\equiv [NO₃⁻](60 m) - [NO�
 
 ![{~~(A) Seasonal cycles of surface nitrate concentrations in different regions of the Arctic. (B) The delineation of these regions largely follows @codispoti2013synthesis and @peralta-ferriz2015seasonal.~>Seasonal cycles of surface nitrate concentrations in the Arctic Ocean. The lasso tool (upper right) permits selection of groups of points. Needs internet access to load the Javascript libraries.~~}](../nb_fig/FIGURE_NO3-COMP_chart_seasonal_cycle.{~~png~>html~~}){#fig:NO3-COMP_chart_seasonal_cycle}
 
-![All nitrate flux compilation across the AO compiled for this study, irrespective of season and vertical levels. The smaller dots indicate single stations, whereas the big dots represent averages over larger time or space scales.](../nb_fig/FIGURE_FN-COMP_map.{~~png~>html~~}){#fig:FN-COMP_map}
+![All nitrate flux compilation across the Arctic Ocean compiled for this study, irrespective of season and vertical levels. The smaller dots indicate single stations, whereas the big dots represent averages over larger time or space scales.](../nb_fig/FIGURE_FN-COMP_map.{~~png~>html~~}){#fig:FN-COMP_map}
 
 ![Vertical turbulent nitrate fluxes as a function of the month. Black lines mark the regions where the water column overturns in winter and orange those where it does not. Dotted lines reflect flux estimates based on small sample sizes (N), potentially not very representative of the regional or seasonal scale, whereas solid lines indicate data that are representative of a larger spatial or temporal scale.](../nb_fig/FIGURE_FN-COMP_chart_seasonal_cycle.{~~png~>html~~}){#fig:FN-COMP_chart_seasonal_cycle}
 
