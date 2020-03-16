@@ -1,9 +1,10 @@
 ---
 title: Supplementary Material: Pan-Arctic Ocean primary production constrained by turbulent nitrate fluxes
 tblPrefix: Table
+geometry: margin=1in
 numbersections: true
 ---
-[comment]: # (This document is just typeset for Frontiers because they would not want it in the main article; it is not part of the standard compilation pipeline and is still included in the interactive and static article file paper*.html. Compiled using `$ pandoc --bibliography bibliographyfull.bib --pdf-engine=xelatex --filter pandoc-crossref --filter pandoc-citeproc --csl frontiers.csl --mathjax --number-sections -o supmat.pdf supmat.md`)
+[comment]: # (This document is just typeset for Frontiers because they would not want it in the main article; it is not part of the standard compilation pipeline and is still included in the interactive and static article file paper*.html. Compiled using `$ pandoc -V geometry:margin=1in --bibliography bibliographyfull.bib --pdf-engine=xelatex --filter pandoc-crossref --filter pandoc-citeproc --csl frontiers.csl --mathjax --number-sections -o supmat.pdf supmat.md`)
 
 
 $$\textrm{\Large Appendix: }$$
@@ -33,7 +34,7 @@ Achim Randelhoff, achim.randelhoff@takuvik.ulaval.ca
 
 # Introduction
 
-The complete supplemental material, accessible at [https://github.com/poplarShift/arctic-nitrate-fluxes](https://github.com/poplarShift/arctic-nitrate-fluxes), contains:
+The complete supplemental material, accessible at [https://github.com/poplarShift/arctic-nitrate-fluxes](https://github.com/poplarShift/arctic-nitrate-fluxes) [@randelhoff2020software], contains:
 
 - The python code necessary to reproduce all analyses and figures, licensed under GNU GPL3.
 - The data, as plotted in all figures, in machine-readable formats.
@@ -114,17 +115,17 @@ Three biogeochemical Argo floats, part of the NAOS project, overwintered in Baff
 
 Nitrate concentration was observed by the Satlantic Submersible Ultraviolet Nitrate Analyzer (SUNA). Each sensor's offset, taken to be constant and depth-independent [@randelhoff2016vertical], was corrected based on nitrate concentration profiles sampled during deployment of the floats. Mixed layer depth was defined as the shallowest depth where density rose more than 0.1 kg m$^{-3}$ above the surface density.
 
-Integrating the nitrate deficit $\Delta$ [NO$_3^-$]$\equiv$[NO$_3^-$](60 m) - [NO$_3^-$](z)$ over the upper 60 meters for each station shows that over the course of four months (from November to March), a deficit of 200 mmol N m$^{-2}$ was replenished, approximately equivalent to an upward nitrate flux of 1.66 mmol N m$^{-2}$ d$^{-1}$ ([@Fig:FN-NEW_BAFFIN]). Although each float was drifting during the course of the winter, which may have introduced advective changes, the floats were well dispersed across Baffin Bay and should give a representative picture of winter mixed layer evolution. Details are deferred to the aforementioned manuscript (Randelhoff et al., in prep.). The usual caveats about neglecting mixed-layer regeneration and consumption of nutrients apply, and so this calculation makes the same kind of assumptions as have been detailed by @randelhoff2015seasonal.
+Integrating the nitrate deficit $\Delta$ [NO$_3^-$]$\equiv$[NO$_3^-$] (60 m) - [NO$_3^-$] (z) over the upper 60 meters for each station shows that over the course of four months (from November to March), a deficit of 200 mmol N m$^{-2}$ was replenished, approximately equivalent to an upward nitrate flux of 1.66 mmol N m$^{-2}$ d$^{-1}$ ([@Fig:FN-NEW_BAFFIN]). Although each float was drifting during the course of the winter, which may have introduced advective changes, the floats were well dispersed across Baffin Bay and should give a representative picture of winter mixed layer evolution. Details are deferred to the aforementioned manuscript (Randelhoff et al., in prep.). The usual caveats about neglecting mixed-layer regeneration and consumption of nutrients apply, and so this calculation makes the same kind of assumptions as have been detailed by @randelhoff2015seasonal.
 
 # Figures
 
-![A simplified marine nitrogen cycle and idealized Arctic hydrography. (A) General schematic of a vertical profile of nitrate concentration, along with the respective portion of the nitrogen cycle that takes place in each layer. In this idealized case, there is a clear separation between the seasonal variations in nitrate concentrations in the surface layer which give rise to the seasonal nitracline, and the underlying perennial nitracline. (B) In areas with deep overturning into the waters of maximum nitrate concentration, the deep nitracline ceases to be meaningful. Instead, nitrate fluxes tap into high-nutrient water every winter. (C) Highly stratified areas do not see large seasonal excursions in surface layer nitrate concentrations or mixing depths.](../fig/ncycle.png){#fig:ncycle width=50%}
+![A simplified marine nitrogen cycle and idealized Arctic hydrography. (A) General schematic of a vertical profile of nitrate concentration, along with the respective portion of the nitrogen cycle that takes place in each layer. In this idealized case, there is a clear separation between the seasonal variations in nitrate concentrations in the surface layer which give rise to the seasonal nitracline, and the underlying perennial nitracline. (B) In areas with deep overturning into the waters of maximum nitrate concentration, the deep nitracline ceases to be meaningful. Instead, nitrate fluxes tap into high-nutrient water every winter. (C) Highly stratified areas do not see large seasonal excursions in surface layer nitrate concentrations or mixing depths.](../fig/ncycle.png){#fig:ncycle height=80%}
 
-![Young Sound data. (A) Bathymetry and coast data courtesy T. Vang and J. Bendtsen (@rysgaard2003physical; not included in the supplemental material). Transect starting in the inner end of the fjord, going over two sills and out into the Greenland Sea, demonstrating (B) low salinity due to ice sheet runoff, (C) nitrate depletion in the upper 30-40 meters, and (D) a quiescent fjord interior with vigorous mixing over the two sills. (E) Upward nitrate fluxes observed in Young Sound (shaded areas represent kernel density estimates) and observed values of new production, integrated over 0-20 meters (black bars). Note that new production estimates are based on only two measurement depths; see methods.](../nb_fig/FIGURE_FN-NEW_YOUNGSOUND.png){#fig:FN-NEW_YOUNGSOUND}
+![Young Sound data. (A) Bathymetry and coast data courtesy T. Vang and J. Bendtsen (@rysgaard2003physical; not included in the supplemental material). Transect starting in the inner end of the fjord, going over two sills and out into the Greenland Sea, demonstrating (B) low salinity due to ice sheet runoff, (C) nitrate depletion in the upper 30-40 meters, and (D) a quiescent fjord interior with vigorous mixing over the two sills. (E) Upward nitrate fluxes observed in Young Sound (shaded areas represent kernel density estimates) and observed values of new production, integrated over 0-20 meters (black bars). Note that new production estimates are based on only two measurement depths; see methods.](../nb_fig/FIGURE_FN-NEW_YOUNGSOUND.png){#fig:FN-NEW_YOUNGSOUND height=70%}
 
 ![Laptev Sea data. (A) Vertical profiles of salinity, nitrate concentration and dissipation of turbulent kinetic energy ($\epsilon$) in the Laptev Sea. (B) Measurement locations in the Laptev Sea.](../nb_fig/FIGURE_FN-NEW_LAPTEV.png){#fig:FN-NEW_LAPTEV}
 
-![Seasonal cycle of nitrate concentrations in Baffin Bay alongside mixed layer depth (A) and the 0-60 m vertically integrated nitrate deficit $\Delta [NO$_3^-$]=[NO$_3^-$](60 m) - [NO$_3^-$](z)$ (B).](../nb_fig/FIGURE_FN-NEW_BAFFIN.png){#fig:FN-NEW_BAFFIN}
+![Seasonal cycle of nitrate concentrations in Baffin Bay alongside mixed layer depth (A) and the 0-60 m vertically integrated nitrate deficit $\Delta$ [NO$_3^-$]=[NO$_3^-$] (60 m) - [NO$_3^-$] (z) (B).](../nb_fig/FIGURE_FN-NEW_BAFFIN.png){#fig:FN-NEW_BAFFIN}
 
 \pagebreak
 \pagebreak

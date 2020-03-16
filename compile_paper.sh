@@ -39,13 +39,10 @@ python move_figures_into_text.py ${articlefile}_static.md
 python move_figures_into_text.py ${articlefile}_interactive.md
 # --- static paper
 # -html
-pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl $cslfile --self-contained --resource-path=.:../nb_fig/:../fig -o ${articlefile}_static.html ${articlefile}_static.md
-
-# # -pdf
-# pandoc --bibliography $bib --pdf-engine=xelatex --filter pandoc-crossref --filter pandoc-citeproc --csl markdown_template/frontiers.csl --mathjax -o ${articlefile}.pdf ${articlefile}_static.md
+pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl $cslfile --self-contained --resource-path=.:../nb_fig/:../fig --mathjax -o ${articlefile}_static.html ${articlefile}_static.md
 
 # --- compile interactive paper
-pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl $cslfile  --self-contained --resource-path=.:../nb_fig/:../fig -o ${articlefile}_interactive.html ${articlefile}_interactive.md
+pandoc --bibliography $bib --filter pandoc-crossref --filter pandoc-citeproc --csl $cslfile  --self-contained --resource-path=.:../nb_fig/:../fig --mathjaxn -o ${articlefile}_interactive.html ${articlefile}_interactive.md
 
 
 # make version with tracked changes

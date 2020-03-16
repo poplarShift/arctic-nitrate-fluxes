@@ -1,4 +1,5 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/poplarShift/arctic-nitrate-fluxes/master)
+[![DOI](https://zenodo.org/badge/203251426.svg)](https://zenodo.org/badge/latestdoi/203251426)
 
 # Welcome!
 

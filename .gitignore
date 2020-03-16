@@ -35,6 +35,7 @@ data/no3-compilation/database-per-stn.*
 *.pandas
 
 paper/bibliographyfull.bib
+paper/supmat_trimmed_paper.md
 ghostdriver.log
 paper/templates
 paper/markdown-format-wdiff

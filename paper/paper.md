@@ -187,7 +187,7 @@ AR designed the study, made all visualizations, and wrote the first draft of the
 
 # Funding
 
-Data acquisition of BGC-Argo Floats in Baffin Bay was funded through the NAOS project. Work in Young Sound was supported by the DANCEA project "De-icing Arctic coasts" and the Greenland Ecosystem Monitoring Programme. AR was supported by the Sentinel North program of Université Laval, partly funded by the Canada First Research Excellence Fund, and Carbon Bridge, a Polar Programme (project 226415) funded by the Norwegian Research Council. JMH was supported by the European Commission H2020 programme under the Marie Skłodowska-Curie Actions (GrIS-Melt: grant no. 752325). MBA was supported by the National Science Foundation (PLR-1203146 AM003) and the National Oceanic and Atmospheric Administration (NA15OAR4310156).
+Data acquisition of BGC-Argo Floats in Baffin Bay was funded through the NAOS project. Work in Young Sound was supported by the DANCEA project "De-icing Arctic coasts" and the Greenland Ecosystem Monitoring Programme. AR was supported by the Sentinel North program of Université Laval, partly funded by the Canada First Research Excellence Fund, and Carbon Bridge, a Polar Programme (project 226415) funded by the Norwegian Research Council. JMH was supported by the European Commission H2020 programme under the Marie Skłodowska-Curie Actions (GrIS-Melt: grant no. 752325). MBA was supported by the National Science Foundation (PLR-1203146 AM003) and the National Oceanic and Atmospheric Administration (NA15OAR4310156). MJ was supported by the German Ministry of Science and Education (BMBF) under grants 03G0833, 03F0776, and 03F0804A.
 
 # Acknowledgments
 
@@ -199,7 +199,7 @@ Data exploration and visualization relied heavily on the [Holoviews library](htt
 
 # Supplementary Material
 
-The supplemental material, accessible at [https://github.com/poplarShift/arctic-nitrate-fluxes](https://github.com/poplarShift/arctic-nitrate-fluxes), contains:
+The supplemental material [@randelhoff2020software], accessible at [Github](https://github.com/poplarShift/arctic-nitrate-fluxes) and [Zenodo](https://zenodo.org/badge/latestdoi/203251426), contains:
 
 - The python code necessary to reproduce all analyses and figures, licensed under GNU GPL3.
 - The data, as plotted in all figures, in machine-readable formats.
