@@ -20,7 +20,6 @@ cd paper # ./paper
 # preferably use full bib file, but if unavailable (e.g. in exported docker or
 # public repo) then use the reduced file (exported with bibexport)
 if [ -f $bib_full ]; then
-  ./export_bibliography.sh
   bib=$bib_full
 fi
 
